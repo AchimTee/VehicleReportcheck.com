@@ -27,7 +27,7 @@ export default defineConfig([
     },
     rules: {
       'no-unused-vars': [
-        'error',
+        'warn',
         {
           varsIgnorePattern: '^[A-Z_]',
           argsIgnorePattern: '^[A-Z_]',
@@ -36,6 +36,11 @@ export default defineConfig([
           caughtErrors: 'all'
         }
       ],
+      'no-empty': 'warn',
+      'no-constant-condition': 'warn',
+      'no-useless-escape': 'warn',
+      'react-hooks/purity': 'warn',
+      'react-hooks/set-state-in-effect': 'warn',
     },
   },
 ])

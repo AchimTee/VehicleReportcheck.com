@@ -3,11 +3,11 @@ import './ReportTemplate.css';
 import brandLogo from '../assets/logo-new.png';
 
 const ReportTemplate = ({ data }) => {
-    if (!data) return <p>No data available</p>;
-
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    if (!data) return <p>No data available</p>;
 
     // Helper component for AutoCheck style badges (for lower sections)
     const StatusBadge = ({ status }) => {
