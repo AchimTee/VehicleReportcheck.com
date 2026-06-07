@@ -1,0 +1,64 @@
+button.photo-btn.search-by-image {
+    position: relative;
+    border: 0;
+    background-color: transparent;
+    padding-left: 54px;
+    padding-right: 24px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: start;
+    z-index: 88;
+}
+button.photo-btn.search-by-image::before {
+    position: absolute;
+    left: 24px;
+    font-size: 16px;
+}
+button.photo-btn.search-by-image {
+    left: 24px;
+    width: 32px;
+    max-width: 32px;
+    font-size: 32px;
+    height: 26px;
+    opacity: 0.5;
+    padding-left: 70px;
+    padding-right: 0;
+    overflow: hidden;
+    display: block;
+}
+button.photo-btn.search-by-image::before {
+    color: #000;
+    left: 0;
+    font-size: 32px;
+    right: auto;
+    top: -3px;
+}
+button.photo-btn.search-by-image:hover {
+    opacity: 1;
+}
+@media screen and (max-width: 767px) {
+    button.photo-btn.search-by-image {
+        left: 16px;
+        width: 22px;
+        height: 19px;
+        padding-left: 40px;
+        position:absolute;
+        top: 20px;
+    }
+    button.photo-btn.search-by-image::before {
+        font-size: 22px;
+        top: -3px;
+    }
+}
+@media screen and (max-width: 575px) {
+    button.photo-btn.search-by-image {
+        padding-left: 36px;
+    }
+}

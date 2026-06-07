@@ -1,0 +1,430 @@
+.dvh-pricing-page {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    padding-bottom: 80px;
+}
+
+/* Header Section */
+.dvh-pricing-header {
+    background-color: transparent;
+    color: #0f172a;
+    padding: 60px 20px 0;
+    text-align: center;
+}
+
+.dvh-header-content {
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
+
+.dvh-subtitle {
+    display: inline-block;
+    color: #1e40af;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+}
+
+.dvh-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.dvh-desc {
+    font-size: 1.125rem;
+    color: #475569;
+    line-height: 1.6;
+}
+
+
+
+.dvh-pricing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* Pricing Grid */
+.dvh-pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+/* Pricing Cards */
+.dvh-pricing-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 32px 24px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.dvh-pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.dvh-pricing-card.popular {
+    border: 2px solid #1e40af;
+    box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.1);
+}
+
+.dvh-pricing-card.best-value {
+    border: 2px solid #10b981;
+    box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.1);
+}
+
+.dvh-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 16px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.popular-badge {
+    background-color: #1e40af;
+}
+
+.best-value-badge {
+    background-color: #10b981;
+}
+
+.dvh-card-header {
+    margin-bottom: 24px;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 24px;
+}
+
+.dvh-pkg-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0 0 8px 0;
+}
+
+.dvh-price-per-report {
+    color: #64748b;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.dvh-price-per-report span {
+    font-size: 0.875rem;
+}
+
+.dvh-card-body {
+    flex-grow: 1;
+    margin-bottom: 32px;
+}
+
+.dvh-total-price {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #003478;
+    margin-bottom: 8px;
+}
+
+.dvh-total-price .currency {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.dvh-total-price .amount {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+.dvh-credits-text {
+    font-size: 1rem;
+    color: #475569;
+    font-weight: 500;
+    margin: 0;
+}
+
+.dvh-card-footer {
+    margin-top: auto;
+}
+
+.dvh-buy-btn {
+    width: 100%;
+    padding: 14px 24px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    background-color: #003478;
+    color: white;
+}
+
+.dvh-buy-btn:hover {
+    background-color: #002255;
+}
+
+.popular .dvh-buy-btn {
+    background-color: #1e40af;
+}
+
+.popular .dvh-buy-btn:hover {
+    background-color: #1e3a8a;
+}
+
+.best-value .dvh-buy-btn {
+    background-color: #10b981;
+}
+
+.best-value .dvh-buy-btn:hover {
+    background-color: #059669;
+}
+
+
+/* Features Section */
+.dvh-features-section {
+    background: white;
+    border-radius: 16px;
+    padding: 48px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 60px;
+}
+
+.dvh-features-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.dvh-features-header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin: 0 0 12px 0;
+}
+
+.dvh-features-header p {
+    font-size: 1.125rem;
+    color: #64748b;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.dvh-features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.dvh-feature-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.dvh-check-circle {
+    background-color: #dcfce7;
+    color: #1e3a8a;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.dvh-feature-item span {
+    font-size: 1rem;
+    color: #334155;
+    line-height: 1.5;
+}
+
+/* Bottom Banner */
+.dvh-bottom-banner {
+    background: var(--gradient-primary);
+    border-radius: 16px;
+    padding: 48px;
+    color: white;
+    text-align: center;
+}
+
+.dvh-banner-content h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.dvh-banner-content p {
+    font-size: 1.125rem;
+    color: #e2e8f0;
+    max-width: 700px;
+    margin: 0 auto 32px;
+    line-height: 1.6;
+}
+
+.dvh-savings-box {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 16px 32px;
+    border-radius: 999px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #fbbf24;
+}
+
+@media (max-width: 768px) {
+    .dvh-title {
+        font-size: 2rem;
+    }
+    
+    .dvh-pricing-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .dvh-features-section {
+        padding: 32px 20px;
+    }
+    
+    .dvh-bottom-banner {
+        padding: 32px 20px;
+    }
+    
+    .dvh-savings-box {
+        font-size: 1rem;
+        padding: 12px 24px;
+    }
+}/* Express Checkout Modal */
+.dvh-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.dvh-modal-content {
+    background: white;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 480px;
+    width: 90%;
+    position: relative;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    animation: slideUp 0.3s ease-out;
+}
+
+.dvh-modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    color: #94a3b8;
+    cursor: pointer;
+    transition: color 0.2s;
+    line-height: 1;
+}
+
+.dvh-modal-close:hover {
+    color: #0f172a;
+}
+
+.dvh-modal-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.dvh-modal-subtitle {
+    font-size: 1rem;
+    color: #475569;
+    margin-bottom: 24px;
+}
+
+.dvh-modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dvh-modal-form label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #334155;
+}
+
+.dvh-modal-input {
+    padding: 12px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #0f172a;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.dvh-modal-input:focus {
+    outline: none;
+    border-color: #1e40af;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.dvh-modal-footer {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0.75rem;
+    color: #64748b;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

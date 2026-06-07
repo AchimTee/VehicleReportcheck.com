@@ -1,0 +1,91 @@
+.generation-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+.generation-content {
+    text-align: center;
+    background: white;
+    padding: 48px;
+    border-radius: 24px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    max-width: 500px;
+    width: 90%;
+}
+
+.logo-pulse {
+    margin-bottom: 32px;
+    animation: pulse 2s infinite;
+}
+
+.generation-logo {
+    height: 60px;
+    object-fit: contain;
+}
+
+.generation-content h1 {
+    color: #0f172a;
+    font-size: 1.75rem;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.generation-content p {
+    color: #64748b;
+    margin-bottom: 32px;
+    font-size: 1rem;
+}
+
+.progress-container {
+    height: 8px;
+    background: #f1f5f9;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--gradient-primary);
+    border-radius: 4px;
+    transition: width 0.1s linear;
+}
+
+.steps-display {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #94a3b8;
+    font-weight: 500;
+}
+
+.step {
+    transition: color 0.3s;
+}
+
+.step.active {
+    color: #007FFF;
+    font-weight: 600;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

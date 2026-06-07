@@ -1,0 +1,180 @@
+.global-guides-page {
+    min-height: 100vh;
+    background-color: #f8fafc;
+}
+
+/* Hero */
+.global-hero {
+    position: relative;
+    background-image: url('../assets/premium_cars_bg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.global-hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+.relative-z {
+    position: relative;
+    z-index: 2;
+}
+
+.global-hero-title {
+    font-size: 3rem !important;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #ffffff !important;
+    text-shadow: 0 4px 12px rgba(0,0,0,0.8);
+    line-height: 1.2;
+}
+
+.global-hero-desc {
+    font-size: 1.2rem;
+    color: #e2e8f0;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+
+/* Grid */
+.global-grid-section {
+    padding: 60px 0;
+}
+
+.global-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.country-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid #f1f5f9;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.country-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    border-color: #cbd5e1;
+}
+
+.country-card-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.country-flag-icon {
+    width: 40px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.country-card h2 {
+    font-size: 1.3rem;
+    color: var(--text-dark);
+    margin: 0;
+}
+
+.country-card-intro {
+    color: var(--text-light);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.country-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding-top: 15px;
+    border-top: 1px solid #f1f5f9;
+}
+
+/* Add More */
+.global-add-more {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    overflow: hidden;
+    margin-top: 40px;
+    border: 1px solid #e2e8f0;
+}
+
+.add-more-img-wrapper {
+    flex: 1;
+    min-height: 300px;
+    background: #f1f5f9;
+}
+
+.add-more-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center left;
+}
+
+.add-more-content {
+    flex: 1;
+    padding: 60px 40px;
+}
+
+.add-more-content h3 {
+    color: var(--text-dark);
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.add-more-content p {
+    color: var(--text-light);
+    margin-bottom: 30px;
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .global-add-more {
+        flex-direction: column;
+    }
+    
+    .add-more-img-wrapper {
+        width: 100%;
+        min-height: 250px;
+    }
+    
+    .add-more-content {
+        padding: 40px 20px;
+        text-align: center;
+    }
+}

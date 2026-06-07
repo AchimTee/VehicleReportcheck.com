@@ -1,0 +1,722 @@
+/* SampleReportPage.css - AutoCheck Complete Clone */
+.sample-report-wrapper {
+    background-color: #ffffff; /* AutoCheck uses mostly white backgrounds outside the main container */
+    min-height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-family: 'Inter', system-ui, sans-serif; /* Standard web safe font closest to image */
+    color: #333;
+}
+
+.report-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+/* -------------------------------------
+   Top Dashboard Layout (3 Boxes)
+   ------------------------------------- */
+.top-dashboard {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.dashboard-box {
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.vehicle-info-box .box-header {
+    background: #fff;
+    padding: 15px 20px 10px;
+}
+.vehicle-info-box .box-header h2 {
+    color: #0056b3; /* AutoCheck link blue */
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.vehicle-info-box .box-header p {
+    color: #0056b3;
+    margin: 5px 0 10px;
+    font-size: 14px;
+}
+
+.vehicle-info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.vehicle-info-table td {
+    padding: 6px 15px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 11px;
+    color: #555;
+}
+.vehicle-info-table td:first-child {
+    width: 40%;
+}
+
+.owners-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.owners-title {
+    color: #0056b3;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.owners-icon-wrapper {
+    color: #891b7d; /* Purple icon */
+    font-size: 80px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.usage-title {
+    color: #0056b3;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.usage-text {
+    color: #555;
+    font-size: 14px;
+}
+
+.score-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+}
+.score-title {
+    color: #0056b3;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.score-gauge-wrapper {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.score-gauge-bg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    border: 15px solid #d4d4d4;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(45deg);
+}
+.score-gauge-bg-active {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 15px solid #0056b3;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(-45deg); /* Dynamic rotation based on score would go here */
+}
+.score-number {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 42px;
+    color: #0056b3;
+    font-weight: normal;
+    line-height: 1;
+}
+.score-range-text {
+    font-size: 12px;
+    color: #555;
+    text-align: center;
+    line-height: 1.5;
+}
+.score-range-text span {
+    color: #0056b3;
+}
+.score-more-info {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 11px;
+    color: #0056b3;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+.score-more-info i {
+    color: #891b7d;
+    font-size: 14px;
+}
+
+/* -------------------------------------
+   Vehicle History at a Glance Section
+   ------------------------------------- */
+.glance-section {
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.glance-header {
+    background: var(--gradient-primary); /* AutoCheck Purple */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.glance-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 15px;
+}
+
+.glance-card {
+    background: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.glance-card-body {
+    display: flex;
+    padding: 10px 15px;
+    align-items: center;
+    min-height: 70px;
+}
+.glance-icon {
+    width: 65px;
+    height: 65px;
+    margin-right: 20px;
+    object-fit: contain;
+}
+.glance-text h4 {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+    font-weight: 600;
+}
+.glance-text p {
+    margin: 4px 0 0 0;
+    font-size: 11px;
+    color: #555;
+    line-height: 1.3;
+}
+.glance-card-footer {
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #e0e0e0;
+    border-radius: 0 0 8px 8px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.status-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+.glance-status-icon.danger {
+    color: #d9534f; /* Red */
+}
+.glance-status-icon.success {
+    color: #28a745; /* Green */
+}
+.glance-status-icon.info {
+    color: #0056b3; /* Blue */
+}
+.glance-status-icon.warning {
+    color: #f0ad4e; /* Yellow */
+}
+
+.glance-status-text {
+    font-size: 13px;
+    font-weight: 400;
+}
+.glance-status-text.danger {
+    color: #d9534f;
+}
+.glance-status-text.success {
+    color: #28a745;
+}
+.glance-status-text.info {
+    color: #0056b3;
+}
+.glance-status-text.warning {
+    color: #f0ad4e;
+}
+
+
+/* -------------------------------------
+   Rest of the sections
+   ------------------------------------- */
+.report-section {
+    margin-bottom: 15px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.report-section-title {
+    background: var(--gradient-primary);
+    color: #ffffff;
+    margin: 0;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.report-section-title i {
+    font-size: 20px;
+}
+
+/* Grids for Checks */
+.checks-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    background-color: #fcfcfc;
+}
+
+.check-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+}
+
+.check-item:nth-child(even) {
+    border-right: none;
+}
+
+.check-text {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Tables */
+.report-table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.report-table th {
+    background-color: #eef2f5;
+    color: #0056b3;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-bottom: 2px solid #d1d9e0;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.report-table td {
+    padding: 8px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 12px;
+    color: #333;
+    vertical-align: top;
+}
+
+.report-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.details-cell {
+    white-space: pre-wrap;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+/* Auction & Sales Specifics */
+.sales-record-box {
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.sales-record-box:last-child {
+    border-bottom: none;
+}
+
+.sales-details-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.sales-data-point {
+    font-size: 14px;
+}
+
+.sales-data-point strong {
+    color: #0056b3;
+}
+
+.report-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.report-gallery img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .top-dashboard, .glance-grid {
+        grid-template-columns: 1fr;
+    }
+    .checks-grid {
+        grid-template-columns: 1fr;
+    }
+    .check-item {
+        border-right: none;
+    }
+}
+
+/* -------------------------------------
+   Accident & Damage Section
+   ------------------------------------- */
+.accident-section {
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+.ac-blue-header {
+    background: var(--gradient-primary);
+    color: #fff;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.ac-blue-header h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ac-blue-header a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.accident-body {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.accident-left-panel {
+    flex: 0 0 45%;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.02);
+}
+.accident-car-diagram {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+.car-diagram-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+.car-img-icons {
+    width: 100%;
+    height: auto;
+}
+.car-indicator-front-right {
+    position: absolute;
+    right: 5%;
+    top: 25%;
+    width: 15%;
+    height: auto;
+}
+.accident-icons-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+}
+.accident-icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.accident-icon-item img {
+    width: 48px;
+    height: 48px;
+}
+.accident-icon-item span {
+    font-size: 11px;
+    color: #555;
+    max-width: 60px;
+}
+
+.accident-right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.ac-light-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+.ac-light-table th {
+    color: #0074c8;
+    font-weight: 400;
+    text-align: left;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-bottom: 2px solid #f0f0f0;
+}
+.ac-light-table td {
+    padding: 8px 12px;
+    font-size: 12px;
+    color: #333;
+}
+.ac-light-table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+.ac-light-table tr:nth-child(even) {
+    background-color: #fff;
+}
+.severity-red {
+    color: #d9534f;
+}
+.accident-disclaimer {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0 20px;
+}
+
+/* -------------------------------------
+   Open Recall Check Section
+   ------------------------------------- */
+.recall-section {
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+.recall-banner {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 20px;
+    gap: 20px;
+    align-items: flex-start;
+    border-bottom: 1px solid #e0e0e0;
+}
+.recall-banner-icon {
+    width: 48px;
+    height: 48px;
+}
+.recall-banner-text h3 {
+    margin: 0 0 5px 0;
+    color: #0074c8;
+    font-size: 18px;
+    font-weight: 400;
+}
+.recall-banner-text p {
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.5;
+}
+.recall-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.recall-table th {
+    color: #0074c8;
+    font-weight: 400;
+    text-align: left;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.report-section-title {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    color: #444;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.section-title {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    color: #444;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.title-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    object-fit: contain;
+}
+.recall-table td {
+    padding: 10px 15px;
+    font-size: 12px;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+    vertical-align: top;
+}
+.recall-footer {
+    padding: 15px 20px;
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+}
+.recall-footer a {
+    color: #0074c8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .accident-body {
+        flex-direction: column;
+    }
+}
+
+/* Vehicle Information Section */
+.vehicle-info-section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: Arial, sans-serif;
+}
+.vi-header {
+    background-color: #f6f6f6;
+    padding: 8px 12px;
+    border-top: 2px solid #ccc;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.vi-header-icon {
+    width: 20px;
+    height: 20px;
+}
+.vi-block {
+    margin-bottom: 2px;
+}
+.vi-subheader {
+    background-color: #fef0d8;
+    color: #000;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 6px 15px;
+}
+.vi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #fff;
+    border-top: 1px solid #f2ab3e;
+    border-bottom: 1px solid #f2ab3e;
+    font-size: 11px;
+}
+.vi-grid-item {
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.vi-grid-label {
+    color: #333;
+    margin-bottom: 4px;
+}
+.vi-grid-value {
+    color: #000;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .vi-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+.gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}

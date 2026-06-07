@@ -1,0 +1,3470 @@
+{
+    "status": "success",
+    "data": {
+        "year": "2015",
+        "make": "Mercedes-Benz",
+        "model": "Sl-Class Sl 400",
+        "vehicle_name": "2015  Mercedes-Benz SL-Class SL 400",
+        "owner_history": {
+            "titles": [
+                "Status",
+                "Purchased",
+                "State",
+                "Owned",
+                "Duration"
+            ],
+            "data": [
+                {
+                    "status": "Owner 1",
+                    "purchased": "2015",
+                    "state": "OH",
+                    "owned": "05/2015 - 05/2016",
+                    "duration": "1 year "
+                },
+                {
+                    "status": "Owner 2",
+                    "purchased": "2016",
+                    "state": "MI",
+                    "owned": "05/2016 - 11/2016",
+                    "duration": " 6 month(s)"
+                },
+                {
+                    "status": "Owner 3",
+                    "purchased": "2016",
+                    "state": "MI",
+                    "owned": "11/2016 - 01/2018",
+                    "duration": "1 year 2 month(s)"
+                },
+                {
+                    "status": "Owner 4",
+                    "purchased": "2018",
+                    "state": "TN",
+                    "owned": "01/2018 - Present",
+                    "duration": "8 year(s) 4 month(s)"
+                }
+            ]
+        },
+        "detailed_vehicle_history": {
+            "titles": [
+                "Event Date",
+                "Type",
+                "Location",
+                "Data Source",
+                "Odometer Reading",
+                "Odometer Reading (KM)",
+                "Details",
+                "Order"
+            ],
+            "data": [
+                {
+                    "date": "01/16/2015",
+                    "type": "",
+                    "location": "",
+                    "source": [
+                        "Independent Repair Center"
+                    ],
+                    "odometer": "11",
+                    "odometer_km": "17",
+                    "details": [
+                        "Vehicle Serviced or Inspected"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "05/14/2015",
+                    "type": "",
+                    "location": "",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "56",
+                    "odometer_km": "90",
+                    "details": [
+                        "Vehicle in Dealer Inventory"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "05/15/2015",
+                    "type": "",
+                    "location": "",
+                    "source": [
+                        "Independent Repair Center"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Vehicle Serviced or Inspected"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "05/28/2015",
+                    "type": "",
+                    "location": "HUDSON, OH",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "56",
+                    "odometer_km": "90",
+                    "details": [
+                        "Title(Lien Reported)"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "05/28/2015",
+                    "type": "",
+                    "location": "HUDSON, OH",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Registration Event/Renewal"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "06/19/2015",
+                    "type": "",
+                    "location": "",
+                    "source": [
+                        "Independent Repair Center"
+                    ],
+                    "odometer": "323",
+                    "odometer_km": "519",
+                    "details": [
+                        "Vehicle Serviced or Inspected"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "08/28/2015",
+                    "type": "",
+                    "location": "",
+                    "source": [
+                        "Independent Repair Center"
+                    ],
+                    "odometer": "520",
+                    "odometer_km": "836",
+                    "details": [
+                        "Vehicle Serviced or Inspected"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "12/08/2015",
+                    "type": "",
+                    "location": "OH",
+                    "source": [
+                        "Auto Insurance Source"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Reported as Insurance Loss - Vehicle Sold by Insurer. Claim Paid to Insured\nVehicle Loss Caused by Collision"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "02/17/2016",
+                    "type": "",
+                    "location": "CINCINNATI, OH",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "2,693",
+                    "odometer_km": "4,333",
+                    "details": [
+                        "Title(Lien Reported)\nMileage Discrepancy\nSalvage\nDamaged"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "02/24/2016",
+                    "type": "",
+                    "location": "OH",
+                    "source": [
+                        "Auto Auction"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Auction Announced as Salvage, Extent of Damage Unknown"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "04/19/2016",
+                    "type": "",
+                    "location": "WAYNE, MI",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Title(Lien Reported)\nRebuilt/Rebuildable"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "05/16/2016",
+                    "type": "",
+                    "location": "MI",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Registration Event/Renewal(Leased Vehicle)"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "05/17/2016",
+                    "type": "",
+                    "location": "MI",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "2,812",
+                    "odometer_km": "4,524",
+                    "details": [
+                        "Title(Leased Vehicle)\nRebuilt/Rebuildable"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "11/28/2016",
+                    "type": "",
+                    "location": "MI",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Registration Event/Renewal(Leased Vehicle)"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "11/29/2016",
+                    "type": "",
+                    "location": "MI",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "3,000",
+                    "odometer_km": "4,827",
+                    "details": [
+                        "Title(Leased Vehicle)(Lien Reported)\nRebuilt/Rebuildable"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "04/19/2017",
+                    "type": "",
+                    "location": "MI",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Registration Event/Renewal(Leased Vehicle)"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "01/23/2018",
+                    "type": "",
+                    "location": "LENOIR CITY, TN",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "17,332",
+                    "odometer_km": "27,887",
+                    "details": [
+                        "Title"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "01/23/2018",
+                    "type": "",
+                    "location": "LENOIR CITY, TN",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Registration Event/Renewal"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "08/16/2018",
+                    "type": "",
+                    "location": "LENOIR CITY, TN",
+                    "source": [
+                        "Independent Repair Center"
+                    ],
+                    "odometer": "23,283",
+                    "odometer_km": "37,462",
+                    "details": [
+                        "Engine Serviced\nLube, Oil And/Or Filter Changed"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "01/31/2019",
+                    "type": "",
+                    "location": "LENOIR CITY, TN",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Registration Event/Renewal"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "01/31/2020",
+                    "type": "",
+                    "location": "LENOIR CITY, TN",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Registration Event/Renewal\nRebuilt/Rebuildable"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "04/26/2020",
+                    "type": "",
+                    "location": "TN",
+                    "source": [
+                        "Auto Insurance Source"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Vehicle Reported Stolen. Contact NICB with Info About This Theft Event at 800-447-6282 X2 or investigativeassistance@nicb.org"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "04/26/2020",
+                    "type": "",
+                    "location": "TN",
+                    "source": [
+                        "Auto Insurance Source"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Reported as Insurance Loss - Vehicle Sold by Insurer. Claim Paid to Insured"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "04/26/2020",
+                    "type": "",
+                    "location": "TN",
+                    "source": [
+                        "Auto Insurance Source"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Vehicle Reported as Total Loss"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "04/27/2020",
+                    "type": "",
+                    "location": "",
+                    "source": [
+                        "Auto Insurance Source"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Vehicle Reported as Theft Recovery"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "06/24/2020",
+                    "type": "",
+                    "location": "TN",
+                    "source": [
+                        "Auto Auction"
+                    ],
+                    "odometer": "32,936",
+                    "odometer_km": "52,994",
+                    "details": [
+                        "Reported at Auto Auction"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "06/30/2020",
+                    "type": "",
+                    "location": "MADISONVILLE, TN",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "32,936",
+                    "odometer_km": "52,994",
+                    "details": [
+                        "Title"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "06/30/2020",
+                    "type": "",
+                    "location": "MADISONVILLE, TN",
+                    "source": [
+                        "Federal Motor Vehicle Records"
+                    ],
+                    "odometer": "",
+                    "odometer_km": "",
+                    "details": [
+                        "Exceeds Mechanical Limits\nSalvage"
+                    ],
+                    "order": ""
+                },
+                {
+                    "date": "07/14/2020",
+                    "type": "AUCTION",
+                    "location": "Knoxville (TN)",
+                    "source": [
+                        "Auction"
+                    ],
+                    "odometer": "32,936",
+                    "odometer_km": "52,994",
+                    "details": [
+                        "SALE STATUS: Sold",
+                        "PRICE: $19,100",
+                        "PRIMARY DAMAGE: Front end",
+                        "SECONDARY DAMAGE: Side"
+                    ]
+                },
+                {
+                    "date": "09/16/2020",
+                    "type": "AUCTION",
+                    "location": "Long Island (NY)",
+                    "source": [
+                        "Auction"
+                    ],
+                    "odometer": "32,975",
+                    "odometer_km": "53,056",
+                    "details": [
+                        "SALE STATUS: Sold",
+                        "PRICE: $27,750",
+                        "PRIMARY DAMAGE: Minor dent / scratches",
+                        "SECONDARY DAMAGE: -"
+                    ]
+                }
+            ]
+        },
+        "auctions": [
+            {
+                "images": [
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/07-14-2020/img-0-0.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561886&Signature=ioV%2B5wKtSP54YCPGX%2FPuEx47hM4%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/07-14-2020/img-0-1.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561886&Signature=kqyw4hJH%2BOhVZbtS15M8wUrw%2BDU%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/07-14-2020/img-0-2.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561886&Signature=LWjiYPzgLwjgkTDVu0gr85XI8Fk%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/07-14-2020/img-0-3.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561886&Signature=xov5m92NYra0u9LjncW0i6H0qfs%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/07-14-2020/img-0-4.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561886&Signature=3a3rdsh1BCfrU8wX%2BbafcZV%2Fmqw%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/07-14-2020/img-0-5.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561886&Signature=TkxzbZslvXZGM5%2FqKARrB9ZoBxI%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/07-14-2020/img-0-6.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561886&Signature=K%2FqocfgG9LD%2FZdT%2BiGWrMEqJYrs%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/07-14-2020/img-0-7.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561886&Signature=zhaSwNKrFy%2B5hiESw%2BDkcXmOG%2BI%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/07-14-2020/img-0-8.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561886&Signature=Hbd6Om3fWOapLAHE5sqqhSkMuR4%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/07-14-2020/img-0-9.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561886&Signature=NsZtT0K1Z5e%2ByP3l9qtEOfrH7%2BE%3D"
+                ],
+                "auction_market_value": {
+                    "lot": "1-41153170",
+                    "auction_price": "$19,100",
+                    "auction_date": "07/14/2020",
+                    "auction_type": "N/A",
+                    "auction_status": "Sold",
+                    "sale_method": "",
+                    "auction_name": "",
+                    "price_range": "",
+                    "average_price": "",
+                    "weighted_average_price": "",
+                    "common_price": "",
+                    "median_price": "",
+                    "estimated_repair_cost": "$0",
+                    "estimated_retail_value": "",
+                    "avg_estimated_retail_value": "N/A",
+                    "damage_ratio": "N/A",
+                    "primary_damage": "Front end",
+                    "secondary_damage": "Side",
+                    "final_bid": "",
+                    "estimated_winning_bid": "N/A",
+                    "delivery_charges": "",
+                    "title_state_and_type": "Sc",
+                    "title_description": "N/A",
+                    "auction_frequency": "N/A",
+                    "keys": "yes",
+                    "engine_starts": "yes",
+                    "runs_drives": "yes",
+                    "start_code": "",
+                    "odometer": "32,936 mi (53,005 km)",
+                    "seller": "",
+                    "seller_type": "No information",
+                    "location": "Knoxville (TN)",
+                    "buyer_country": "",
+                    "documents": "",
+                    "loss": ""
+                },
+                "sales_listing": [
+                    {
+                        "date": "07/14/2020",
+                        "notes": "Sold $19,100",
+                        "type": "",
+                        "sale_date": "",
+                        "sale_ended": "",
+                        "price": "",
+                        "start_drive": "",
+                        "condition": "",
+                        "condition_report": "",
+                        "bid": "",
+                        "sale_status": "",
+                        "salvage": "",
+                        "odometer": "",
+                        "odometer_status": "",
+                        "title": "",
+                        "repair_cost": "",
+                        "loss_type": "",
+                        "damage": "",
+                        "city": "",
+                        "state": ""
+                    },
+                    {
+                        "date": "07/14/2020",
+                        "notes": "Sold $19,100",
+                        "type": "",
+                        "sale_date": "",
+                        "sale_ended": "",
+                        "price": "",
+                        "start_drive": "",
+                        "condition": "",
+                        "condition_report": "",
+                        "bid": "",
+                        "sale_status": "",
+                        "salvage": "",
+                        "odometer": "",
+                        "odometer_status": "",
+                        "title": "",
+                        "repair_cost": "",
+                        "loss_type": "",
+                        "damage": "",
+                        "city": "",
+                        "state": ""
+                    },
+                    {
+                        "date": "09/16/2020",
+                        "notes": "Sold $27,750",
+                        "type": "",
+                        "sale_date": "",
+                        "sale_ended": "",
+                        "price": "",
+                        "start_drive": "",
+                        "condition": "",
+                        "condition_report": "",
+                        "bid": "",
+                        "sale_status": "",
+                        "salvage": "",
+                        "odometer": "",
+                        "odometer_status": "",
+                        "title": "",
+                        "repair_cost": "",
+                        "loss_type": "",
+                        "damage": "",
+                        "city": "",
+                        "state": ""
+                    },
+                    {
+                        "date": "09/16/2020",
+                        "notes": "Sold $27,750",
+                        "type": "",
+                        "sale_date": "",
+                        "sale_ended": "",
+                        "price": "",
+                        "start_drive": "",
+                        "condition": "",
+                        "condition_report": "",
+                        "bid": "",
+                        "sale_status": "",
+                        "salvage": "",
+                        "odometer": "",
+                        "odometer_status": "",
+                        "title": "",
+                        "repair_cost": "",
+                        "loss_type": "",
+                        "damage": "",
+                        "city": "",
+                        "state": ""
+                    }
+                ]
+            },
+            {
+                "images": [
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/09-16-2020/img-1-0.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561887&Signature=cJV5aeEoqCHpMrtnf57L2jxQjgc%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/09-16-2020/img-1-1.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561887&Signature=J1%2FnCSLUfviNBeGF1xjMCxPuERI%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/09-16-2020/img-1-2.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561887&Signature=ZfIkkiAYcVqc6c8MY30JpO%2B7t84%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/09-16-2020/img-1-3.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561887&Signature=yWfHOcS2hsletwnuj9uUw3gTk9E%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/09-16-2020/img-1-4.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561887&Signature=TTNxOz0gfK%2FBugbq%2FXGaIgUYQ5M%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/09-16-2020/img-1-5.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561887&Signature=p8zf%2Fk3UmisczZ02WylrfnqEc6E%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/09-16-2020/img-1-6.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561887&Signature=F8B8fxG1OZSbbcMM6FrZFuf%2FWT4%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/09-16-2020/img-1-7.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561887&Signature=WIaWV3KE7dHC3voJ%2BjzZa485lQs%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/09-16-2020/img-1-8.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561887&Signature=X%2BaUIkIVLoszylMlB%2FCLqzTT%2FKc%3D",
+                    "https://vhr.nyc3.cdn.digitaloceanspaces.com/Report/auction/WDDJK6FA2FF035099/09-16-2020/img-1-9.jpg?AWSAccessKeyId=MFGKLSPAWD3A4THI3OSQ&Expires=1788561887&Signature=9g9XK903C5xf9jVkd%2Fn1Le61oPs%3D"
+                ],
+                "auction_market_value": {
+                    "lot": "1-48603350",
+                    "auction_price": "$27,750",
+                    "auction_date": "09/16/2020",
+                    "auction_type": "N/A",
+                    "auction_status": "Sold",
+                    "sale_method": "",
+                    "auction_name": "",
+                    "price_range": "",
+                    "average_price": "",
+                    "weighted_average_price": "",
+                    "common_price": "",
+                    "median_price": "",
+                    "estimated_repair_cost": "$0",
+                    "estimated_retail_value": "",
+                    "avg_estimated_retail_value": "N/A",
+                    "damage_ratio": "N/A",
+                    "primary_damage": "Minor dent / scratches",
+                    "secondary_damage": "-",
+                    "final_bid": "",
+                    "estimated_winning_bid": "N/A",
+                    "delivery_charges": "",
+                    "title_state_and_type": "Sc",
+                    "title_description": "N/A",
+                    "auction_frequency": "N/A",
+                    "keys": "yes",
+                    "engine_starts": "yes",
+                    "runs_drives": "yes",
+                    "start_code": "",
+                    "odometer": "32,975 mi (53,068 km)",
+                    "seller": "",
+                    "seller_type": "No information",
+                    "location": "Long Island (NY)",
+                    "buyer_country": "",
+                    "documents": "",
+                    "loss": ""
+                },
+                "sales_listing": [
+                    {
+                        "date": "07/14/2020",
+                        "notes": "Sold $19,100",
+                        "type": "",
+                        "sale_date": "",
+                        "sale_ended": "",
+                        "price": "",
+                        "start_drive": "",
+                        "condition": "",
+                        "condition_report": "",
+                        "bid": "",
+                        "sale_status": "",
+                        "salvage": "",
+                        "odometer": "",
+                        "odometer_status": "",
+                        "title": "",
+                        "repair_cost": "",
+                        "loss_type": "",
+                        "damage": "",
+                        "city": "",
+                        "state": ""
+                    },
+                    {
+                        "date": "07/14/2020",
+                        "notes": "Sold $19,100",
+                        "type": "",
+                        "sale_date": "",
+                        "sale_ended": "",
+                        "price": "",
+                        "start_drive": "",
+                        "condition": "",
+                        "condition_report": "",
+                        "bid": "",
+                        "sale_status": "",
+                        "salvage": "",
+                        "odometer": "",
+                        "odometer_status": "",
+                        "title": "",
+                        "repair_cost": "",
+                        "loss_type": "",
+                        "damage": "",
+                        "city": "",
+                        "state": ""
+                    },
+                    {
+                        "date": "09/16/2020",
+                        "notes": "Sold $27,750",
+                        "type": "",
+                        "sale_date": "",
+                        "sale_ended": "",
+                        "price": "",
+                        "start_drive": "",
+                        "condition": "",
+                        "condition_report": "",
+                        "bid": "",
+                        "sale_status": "",
+                        "salvage": "",
+                        "odometer": "",
+                        "odometer_status": "",
+                        "title": "",
+                        "repair_cost": "",
+                        "loss_type": "",
+                        "damage": "",
+                        "city": "",
+                        "state": ""
+                    },
+                    {
+                        "date": "09/16/2020",
+                        "notes": "Sold $27,750",
+                        "type": "",
+                        "sale_date": "",
+                        "sale_ended": "",
+                        "price": "",
+                        "start_drive": "",
+                        "condition": "",
+                        "condition_report": "",
+                        "bid": "",
+                        "sale_status": "",
+                        "salvage": "",
+                        "odometer": "",
+                        "odometer_status": "",
+                        "title": "",
+                        "repair_cost": "",
+                        "loss_type": "",
+                        "damage": "",
+                        "city": "",
+                        "state": ""
+                    }
+                ]
+            }
+        ],
+        "vehicle_usage_verification": {
+            "titles": [
+                "Type",
+                "Status"
+            ],
+            "data": [
+                {
+                    "text": "Used Personally",
+                    "status": "no records found"
+                },
+                {
+                    "text": "Fleet vehicle",
+                    "status": "no records found"
+                },
+                {
+                    "text": "Used as a Rental",
+                    "status": "no records found"
+                },
+                {
+                    "text": "Lease records",
+                    "status": "records found"
+                },
+                {
+                    "text": "Taxi",
+                    "status": "no records found"
+                },
+                {
+                    "text": "Livery",
+                    "status": "no records found"
+                },
+                {
+                    "text": "Police Use",
+                    "status": "no records found"
+                },
+                {
+                    "text": "Government Use",
+                    "status": "no records found"
+                },
+                {
+                    "text": "Drivers Ed",
+                    "status": "no records found"
+                },
+                {
+                    "text": "Used Commercially",
+                    "status": "no records found"
+                }
+            ]
+        },
+        "checks": {
+            "titles": [
+                "2 record(s) found",
+                "Title and Damage Checks"
+            ],
+            "data": [
+                {
+                    "status": "no records found",
+                    "text": "No fire brand"
+                },
+                {
+                    "status": "no records found",
+                    "text": "No hail brand"
+                },
+                {
+                    "status": "no records found",
+                    "text": "No flood brand"
+                },
+                {
+                    "status": "no records found",
+                    "text": "No junk or scrapped brand"
+                },
+                {
+                    "status": "no records found",
+                    "text": "No manufacturer buyback"
+                },
+                {
+                    "status": "no records found",
+                    "text": "No lemon brand"
+                },
+                {
+                    "status": "records found",
+                    "text": "Salvage brand"
+                },
+                {
+                    "status": "records found",
+                    "text": "Rebuilt or rebuildable brand"
+                },
+                {
+                    "status": "no records found",
+                    "text": "No odometer brand (EML or NAM)"
+                }
+            ]
+        },
+        "sales_listing_history": {
+            "data": [
+                {
+                    "vin": "",
+                    "date": "",
+                    "sale_date": "09/16/20",
+                    "type": "Classified",
+                    "sale_status": "On Approval",
+                    "description": "",
+                    "year": "",
+                    "make": "",
+                    "model": "",
+                    "trim": "",
+                    "drivetrain": "RWD",
+                    "transmission": "-",
+                    "fuel": "Gas",
+                    "cylinders": "3.0L  6  (6 cyl)",
+                    "engine": "",
+                    "vehicle_type": "",
+                    "doors": "",
+                    "fuel_capacity": "",
+                    "interior_color": "",
+                    "exterior_color": "",
+                    "interior_condition": "",
+                    "exterior_condition": "",
+                    "condition": "",
+                    "primary_damage": "",
+                    "secondary_damage": "",
+                    "manufactured_in": "",
+                    "phone": "",
+                    "email": "",
+                    "dealer": {
+                        "name": "",
+                        "address": "",
+                        "city": "",
+                        "state": "",
+                        "zip": "",
+                        "phone": "",
+                        "website": "",
+                        "latitude": "",
+                        "longitude": ""
+                    },
+                    "seller_type": "",
+                    "seller_name": "",
+                    "seller_country": "United States",
+                    "seller_city": "Brookhaven",
+                    "seller_state": "NY",
+                    "address": "",
+                    "seller_zip": "11719",
+                    "meter": "",
+                    "current": "",
+                    "meter_unit": "",
+                    "price": {
+                        "price": "27,750",
+                        "retail_value": "38,263",
+                        "repair_cost": "",
+                        "currency": "USD"
+                    },
+                    "odometer": "32,975",
+                    "odometer_km": "53,067",
+                    "notes": "",
+                    "fair_market_value": {
+                        "min": "",
+                        "max": ""
+                    },
+                    "sale_document": "",
+                    "accident_records": "",
+                    "title_record": "",
+                    "owner_record": "",
+                    "features": [],
+                    "interior_features": [],
+                    "exterior_features": [],
+                    "safety": [],
+                    "technology": [],
+                    "other": [],
+                    "mechanical": [],
+                    "vhr_preview": [],
+                    "keys": "",
+                    "airbags": "",
+                    "reduced_price": "",
+                    "is_hot": "",
+                    "money_back_guarantee": "",
+                    "monster_ad": "",
+                    "special_offer": "",
+                    "newly_listed": "",
+                    "last_updated": "",
+                    "images": [
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/2/62cff3fecafb6ea3d5a1fb38-1-0.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/2/62cff3fecafb6ea3d5a1fb38-1-1.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/2/62cff3fecafb6ea3d5a1fb38-1-2.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/2/62cff3fecafb6ea3d5a1fb38-1-3.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/2/62cff3fecafb6ea3d5a1fb38-1-4.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/2/62cff3fecafb6ea3d5a1fb38-1-5.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/2/62cff3fecafb6ea3d5a1fb38-1-6.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/2/62cff3fecafb6ea3d5a1fb38-1-7.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/2/62cff3fecafb6ea3d5a1fb38-1-8.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/2/62cff3fecafb6ea3d5a1fb38-1-9.jpg"
+                    ]
+                },
+                {
+                    "vin": "",
+                    "date": "",
+                    "sale_date": "07/14/20",
+                    "type": "Auction",
+                    "sale_status": "Pure Sale",
+                    "description": "",
+                    "year": "",
+                    "make": "",
+                    "model": "",
+                    "trim": "",
+                    "drivetrain": "RWD",
+                    "transmission": "Automatic",
+                    "fuel": "Gas",
+                    "cylinders": "3.0L  6  (6 cyl)",
+                    "engine": "",
+                    "vehicle_type": "Converti",
+                    "doors": "",
+                    "fuel_capacity": "",
+                    "interior_color": "",
+                    "exterior_color": "White",
+                    "interior_condition": "",
+                    "exterior_condition": "",
+                    "condition": "",
+                    "primary_damage": "",
+                    "secondary_damage": "",
+                    "manufactured_in": "",
+                    "phone": "",
+                    "email": "",
+                    "dealer": {
+                        "name": "-",
+                        "address": "",
+                        "city": "",
+                        "state": "",
+                        "zip": "",
+                        "phone": "",
+                        "website": "",
+                        "latitude": "",
+                        "longitude": ""
+                    },
+                    "seller_type": "",
+                    "seller_name": "",
+                    "seller_country": "United States",
+                    "seller_city": "Madisonville",
+                    "seller_state": "TN",
+                    "address": "TN - Madisonville (37354 6763)",
+                    "seller_zip": "37354",
+                    "meter": "",
+                    "current": "",
+                    "meter_unit": "",
+                    "price": {
+                        "price": "19,100",
+                        "retail_value": "26,333",
+                        "repair_cost": "",
+                        "currency": "USD"
+                    },
+                    "odometer": "32,936",
+                    "odometer_km": "53,005",
+                    "notes": "",
+                    "fair_market_value": {
+                        "min": "",
+                        "max": ""
+                    },
+                    "sale_document": "",
+                    "accident_records": "",
+                    "title_record": "",
+                    "owner_record": "",
+                    "features": [],
+                    "interior_features": [],
+                    "exterior_features": [],
+                    "safety": [],
+                    "technology": [],
+                    "other": [],
+                    "mechanical": [],
+                    "vhr_preview": [],
+                    "keys": "",
+                    "airbags": "",
+                    "reduced_price": "",
+                    "is_hot": "",
+                    "money_back_guarantee": "",
+                    "monster_ad": "",
+                    "special_offer": "",
+                    "newly_listed": "",
+                    "last_updated": "",
+                    "images": [
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/5/62cff3fecafb6ea3d5a1fb38-0-0.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/5/62cff3fecafb6ea3d5a1fb38-0-1.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/5/62cff3fecafb6ea3d5a1fb38-0-2.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/5/62cff3fecafb6ea3d5a1fb38-0-3.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/5/62cff3fecafb6ea3d5a1fb38-0-4.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/5/62cff3fecafb6ea3d5a1fb38-0-5.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/5/62cff3fecafb6ea3d5a1fb38-0-6.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/5/62cff3fecafb6ea3d5a1fb38-0-7.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/5/62cff3fecafb6ea3d5a1fb38-0-8.jpg",
+                        "https://vhr.nyc3.cdn.digitaloceanspaces.com/sales-history/2015/Ram/Sl-400/WDDJK6FA2FF035099/2022-04-13/5/62cff3fecafb6ea3d5a1fb38-0-9.jpg"
+                    ]
+                }
+            ]
+        },
+        "accident_records": {
+            "titles": [
+                "Accident Number",
+                "Date of Accident",
+                "Location"
+            ],
+            "data": [
+                {
+                    "no": 1,
+                    "date": "12/08/2015",
+                    "location": "OH"
+                },
+                {
+                    "no": 2,
+                    "date": "02/24/2016",
+                    "location": "OH"
+                }
+            ]
+        },
+        "damage_verification": {
+            "titles": [
+                "3 record(s) found",
+                "Issue Verification"
+            ],
+            "data": [
+                {
+                    "status": "no records found",
+                    "details": "No non-title fire damaged record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No non-title hail damaged record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No non-title flood damaged record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No auction junk or scrapped record"
+                },
+                {
+                    "status": "records found",
+                    "details": "Auction rebuilt or rebuildable record"
+                },
+                {
+                    "status": "records found",
+                    "details": "Salvage auction record"
+                },
+                {
+                    "status": "records found",
+                    "details": "Damaged or major damage incident record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No structural damage or structural alteration record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No recycling facility record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No crash test record"
+                }
+            ]
+        },
+        "vehicle_checks": {
+            "titles": [
+                "3 record(s) found",
+                "Event Verification"
+            ],
+            "data": [
+                {
+                    "status": "records found",
+                    "details": "Insurance loss record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No titled to an insurance company record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No auction lemon/manufacturer buyback record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No abandoned title record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No grey market title record"
+                },
+                {
+                    "status": "records found",
+                    "details": "Loan/lien record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No repossessed record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No corrected title record"
+                },
+                {
+                    "status": "no records found",
+                    "details": "No duplicate title record"
+                },
+                {
+                    "status": "records found",
+                    "details": "Theft record"
+                },
+                {
+                    "status": "records found",
+                    "text": "Auction brand"
+                },
+                {
+                    "status": "no record found",
+                    "text": "Auction brand"
+                }
+            ]
+        },
+        "mileage_records": {
+            "titles": [
+                "Date Reported",
+                "Status",
+                "Mileage",
+                "Other",
+                "Location"
+            ],
+            "data": [
+                {
+                    "date": "01/16/2015",
+                    "status": "records found",
+                    "mileage": "11",
+                    "other": "success"
+                },
+                {
+                    "date": "05/14/2015",
+                    "status": "records found",
+                    "mileage": "56",
+                    "other": "success"
+                },
+                {
+                    "date": "05/28/2015",
+                    "status": "records found",
+                    "mileage": "56",
+                    "other": "success"
+                },
+                {
+                    "date": "06/19/2015",
+                    "status": "records found",
+                    "mileage": "323",
+                    "other": "success"
+                },
+                {
+                    "date": "08/28/2015",
+                    "status": "records found",
+                    "mileage": "520",
+                    "other": "success"
+                },
+                {
+                    "date": "02/17/2016",
+                    "status": "records found",
+                    "mileage": "2,693",
+                    "other": "danger"
+                },
+                {
+                    "date": "05/17/2016",
+                    "status": "records found",
+                    "mileage": "2,812",
+                    "other": "danger"
+                },
+                {
+                    "date": "11/29/2016",
+                    "status": "records found",
+                    "mileage": "3,000",
+                    "other": "danger"
+                },
+                {
+                    "date": "01/23/2018",
+                    "status": "records found",
+                    "mileage": "17,332",
+                    "other": "success"
+                },
+                {
+                    "date": "08/16/2018",
+                    "status": "records found",
+                    "mileage": "23,283",
+                    "other": "success"
+                },
+                {
+                    "date": "06/24/2020",
+                    "status": "records found",
+                    "mileage": "32,936",
+                    "other": "success"
+                },
+                {
+                    "date": "06/30/2020",
+                    "status": "records found",
+                    "mileage": "32,936",
+                    "other": "success"
+                },
+                {
+                    "date": "07/14/2020",
+                    "status": "records found",
+                    "mileage": "32,936",
+                    "other": "success"
+                },
+                {
+                    "date": "09/16/2020",
+                    "status": "records found",
+                    "mileage": "32,975",
+                    "other": "success"
+                }
+            ]
+        },
+        "services": {
+            "titles": [
+                "Date of Service",
+                "Location",
+                "Source",
+                "Service Type",
+                "Mileage"
+            ],
+            "data": [
+                {
+                    "date": "01/16/2015",
+                    "location": "",
+                    "source": "Independent Repair Center",
+                    "service_type": "Vehicle Serviced or Inspected",
+                    "mileage": "11"
+                },
+                {
+                    "date": "05/15/2015",
+                    "location": "",
+                    "source": "Independent Repair Center",
+                    "service_type": "Vehicle Serviced or Inspected",
+                    "mileage": ""
+                },
+                {
+                    "date": "06/19/2015",
+                    "location": "",
+                    "source": "Independent Repair Center",
+                    "service_type": "Vehicle Serviced or Inspected",
+                    "mileage": "323"
+                },
+                {
+                    "date": "08/28/2015",
+                    "location": "",
+                    "source": "Independent Repair Center",
+                    "service_type": "Vehicle Serviced or Inspected",
+                    "mileage": "520"
+                },
+                {
+                    "date": "08/16/2018",
+                    "location": "LENOIR CITY, TN",
+                    "source": "Independent Repair Center",
+                    "service_type": "Engine Serviced\nLube, Oil And/Or Filter Changed",
+                    "mileage": "23,283"
+                }
+            ]
+        },
+        "inspection": {
+            "titles": [
+                "Inspection Date",
+                "Location",
+                "Odometer Reading",
+                "Odometer Reading (KM)",
+                "Data Source",
+                "Details"
+            ],
+            "data": []
+        },
+        "recalls": {
+            "titles": [
+                "Date",
+                "Campaign Number",
+                "Recall Number",
+                "Manufacturer",
+                "Component",
+                "Consequence",
+                "Remedy",
+                "Summary",
+                "Notes"
+            ],
+            "data": []
+        },
+        "vehicle_summary": {
+            "titles": [
+                "Summary",
+                "Status"
+            ],
+            "data": [
+                {
+                    "text": "State Title Brand Reported (3)",
+                    "status": "records found"
+                },
+                {
+                    "text": "Accident Reported (2)",
+                    "status": "records found"
+                },
+                {
+                    "text": "Other Damage Reported (3)",
+                    "status": "records found"
+                },
+                {
+                    "text": "Other Title Brand Or Specific Event Reported (3)",
+                    "status": "records found"
+                },
+                {
+                    "text": "Odometer Problem(s) Reported (12)",
+                    "status": "records found"
+                },
+                {
+                    "text": "Open Recalls Reported",
+                    "status": "no records found"
+                },
+                {
+                    "text": "Service / Repair Information Reported (5)",
+                    "status": "records found"
+                }
+            ]
+        },
+        "summary": "Experience luxury and performance with the 2015 Mercedes-Benz SL 400 Base model. Equipped with a powerful 3L V-6 329hp twin turbo engine and a 7-speed automatic transmission with overdrive, this vehicle delivers an impressive driving experience. Safety features include 4-wheel anti-lock brakes (ABS), side seat mounted airbags, curtain 1st row overhead airbag, driver and passenger knee airbag, airbag occupancy sensor, and a BabySmart airbag childseat sensor. Additional features include integrated navigation system, automatic air conditioning, 18\" aluminum wheels, cruise control, ABS, and driveline traction control. Embrace elegance and power with the Mercedes-Benz SL 400 Base model.",
+        "price": {
+            "base_msrp": "84,000",
+            "delivery_charges": "925",
+            "invoice_price": "78,120",
+            "total_price": "84,925",
+            "currency": "USD"
+        },
+        "vehicle": {
+            "epa_classification": "2 Seater",
+            "rear_door_type": "",
+            "body_type": "Convertible",
+            "doors": "2"
+        },
+        "dimensions": [
+            {
+                "exterior": [
+                    {
+                        "overall_length": [
+                            {
+                                "value": "4,613",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "181.61",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "overall_length_without_rear_bumper": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "overall_length_with_rear_bumper": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "overall_width": [
+                            {
+                                "value": "1,877",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "73.9",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "max_width_without_mirrors": [
+                            {
+                                "value": "73.9",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "1,877.06",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "overall_height": [
+                            {
+                                "value": "1,316",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "51.81",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "liftover_height": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "overhang_front": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "overhang_rear_without_bumper": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "rear_door_opening_height": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "rear_door_opening_width": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "side_door_opening_height": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "track_width_front": [
+                            {
+                                "value": "62.9",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "1,597.66",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "track_width_rear": [
+                            {
+                                "value": "63",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "1,600.2",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "wheelbase": [
+                            {
+                                "value": "2,586",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "101.81",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "front_step_height": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "side_step_height": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "ground_to_top_of_load_floor": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "cab_to_end_of_frame": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "bed_length": [
+                            {
+                                "value": "",
+                                "unit": "ft"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "interior": [
+                    {
+                        "passenger_volume": [
+                            {
+                                "value": "",
+                                "unit": "l"
+                            },
+                            {
+                                "value": "",
+                                "unit": "cu.ft"
+                            }
+                        ]
+                    },
+                    {
+                        "trunk_volume": [
+                            {
+                                "value": "8.5",
+                                "unit": "cu.ft"
+                            },
+                            {
+                                "value": "240.69",
+                                "unit": "l"
+                            }
+                        ]
+                    },
+                    {
+                        "front_head_room": [
+                            {
+                                "value": "993",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "39.1",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "rear_head_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "third_row_head_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "fourth_row_head_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "fifth_row_head_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "front_shoulder_room": [
+                            {
+                                "value": "1,410",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "55.5",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "rear_shoulder_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "third_row_shoulder_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "fourth_row_shoulder_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "fifth_row_shoulder_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "front_hip_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "rear_hip_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "third_row_hip_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "fourth_row_hip_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "fifth_row_hip_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "front_leg_room": [
+                            {
+                                "value": "1,090",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "42.9",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "rear_leg_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "third_row_leg_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "fourth_row_leg_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "fifth_row_leg_room": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "cargo": [
+                    {
+                        "cargo_volume": [
+                            {
+                                "value": "241",
+                                "unit": "l"
+                            },
+                            {
+                                "value": "9",
+                                "unit": "cu.ft"
+                            }
+                        ]
+                    },
+                    {
+                        "max_cargo_volume": [
+                            {
+                                "value": "382",
+                                "unit": "l"
+                            },
+                            {
+                                "value": "13",
+                                "unit": "cu.ft"
+                            }
+                        ]
+                    },
+                    {
+                        "front_cargo_volume": [
+                            {
+                                "value": "",
+                                "unit": "l"
+                            },
+                            {
+                                "value": "",
+                                "unit": "cu.ft"
+                            }
+                        ]
+                    },
+                    {
+                        "cargo_volume_to_seat1": [
+                            {
+                                "value": "",
+                                "unit": "cu.ft"
+                            },
+                            {
+                                "value": "",
+                                "unit": "l"
+                            }
+                        ]
+                    },
+                    {
+                        "cargo_volume_to_seat2": [
+                            {
+                                "value": "",
+                                "unit": "cu.ft"
+                            },
+                            {
+                                "value": "",
+                                "unit": "l"
+                            }
+                        ]
+                    },
+                    {
+                        "cargo_volume_to_seat3": [
+                            {
+                                "value": "",
+                                "unit": "cu.ft"
+                            },
+                            {
+                                "value": "",
+                                "unit": "l"
+                            }
+                        ]
+                    },
+                    {
+                        "cargo_volume_to_seat4": [
+                            {
+                                "value": "",
+                                "unit": "cu.ft"
+                            },
+                            {
+                                "value": "",
+                                "unit": "l"
+                            }
+                        ]
+                    },
+                    {
+                        "cargo_volume_with_rear_seat_down": [
+                            {
+                                "value": "",
+                                "unit": "cu.ft"
+                            },
+                            {
+                                "value": "",
+                                "unit": "l"
+                            }
+                        ]
+                    },
+                    {
+                        "cargo_volume_with_rear_seat_up": [
+                            {
+                                "value": "",
+                                "unit": "cu.ft"
+                            },
+                            {
+                                "value": "",
+                                "unit": "l"
+                            }
+                        ]
+                    },
+                    {
+                        "extended_cab_cargo_volume": [
+                            {
+                                "value": "",
+                                "unit": "cu.ft"
+                            },
+                            {
+                                "value": "",
+                                "unit": "l"
+                            }
+                        ]
+                    },
+                    {
+                        "floor_to_console_cargo_area_length": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "floor_to_seat1_cargo_area_length": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "floor_to_seat2_cargo_area_length": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "floor_to_seat3_cargo_area_length": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "beltline_cargo_area_width": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "cargo_box_height": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "cargo_box_floor_length": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "cargo_box_floor_width": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "cargo_box_wheelhousings_width": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "tailgate_width": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "weights": [
+                    {
+                        "curb_weight_as_spec'd": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "payload_as_spec'd": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "curb_weight_base": [
+                            {
+                                "value": "3,836",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "1,739.68",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "curb_weight": [
+                            {
+                                "value": "3,836",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "1,739.68",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "curb_weight_front": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "curb_weight_rear": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "gross_axle_weight_rating": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "gross_combined_weight_rating": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "gross_vehicle_weight_rating": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "max_payload_capacity": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "option_weight_front": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "option_weight_rear": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "total_option_weight": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "towing_capacity": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "payload_capacity": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ground_clearance": [
+                    {
+                        "ground_clearance_max": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "ground_clearance_min": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "off_road_attributes": [
+                    {
+                        "approach_angle": [
+                            {
+                                "value": "",
+                                "unit": "deg"
+                            }
+                        ]
+                    },
+                    {
+                        "departure_angle": [
+                            {
+                                "value": "",
+                                "unit": "deg"
+                            }
+                        ]
+                    },
+                    {
+                        "ramp_breakover_angle": [
+                            {
+                                "value": "",
+                                "unit": "deg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "steering": [
+                    {
+                        "turning_diameter_curb_to_curb": [
+                            {
+                                "value": "36.2",
+                                "unit": "ft"
+                            },
+                            {
+                                "value": "11.03",
+                                "unit": "m"
+                            }
+                        ]
+                    },
+                    {
+                        "turning_diameter_wall_to_wall": [
+                            {
+                                "value": "",
+                                "unit": "ft"
+                            },
+                            {
+                                "value": "",
+                                "unit": "m"
+                            }
+                        ]
+                    },
+                    {
+                        "turning_radius_curb_to_curb": [
+                            {
+                                "value": "18.1",
+                                "unit": "ft"
+                            },
+                            {
+                                "value": "5.52",
+                                "unit": "m"
+                            }
+                        ]
+                    },
+                    {
+                        "turning_radius_wall_to_wall": [
+                            {
+                                "value": "",
+                                "unit": "ft"
+                            },
+                            {
+                                "value": "",
+                                "unit": "m"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "trailering": [
+                    {
+                        "max_capacity": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "max_tongue_dead_weight_hitch": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "max_trailer_dead_weight_hitch": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "max_tongue_fifth_wheel_hitch": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "max_trailer_fifth_wheel_hitch": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "max_tongue_weigth_distributing_hitch": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    },
+                    {
+                        "max_trailer_weigth_distributing_hitch": [
+                            {
+                                "value": "",
+                                "unit": "lb"
+                            },
+                            {
+                                "value": "",
+                                "unit": "kg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "braking": [
+                    {
+                        "front_brake_rotor_dia": [
+                            {
+                                "value": "14.2",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "360.68",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "front_brake_rotor_thickness": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "rear_brake_rotor_dia": [
+                            {
+                                "value": "12.6",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "320.04",
+                                "unit": "mm"
+                            }
+                        ]
+                    },
+                    {
+                        "rear_brake_rotor_thickness": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            },
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "wheels": [
+                    {
+                        "front_wheel_size": [
+                            {
+                                "value": "18 X 8.5 ",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "rear_wheel_size": [
+                            {
+                                "value": "18 X 9.5 ",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "spare_wheel_size": [
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "wheel_torque": [
+                            {
+                                "value": "",
+                                "unit": "lb.ft"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "engine": [
+                    {
+                        "engine_size": [
+                            {
+                                "value": 3,
+                                "unit": "l"
+                            }
+                        ]
+                    },
+                    {
+                        "horsepower": [
+                            {
+                                "value": "5,250",
+                                "unit": "rpm"
+                            },
+                            {
+                                "value": "329",
+                                "unit": "hp"
+                            }
+                        ]
+                    },
+                    {
+                        "torque": [
+                            {
+                                "value": "1,600",
+                                "unit": "rpm"
+                            },
+                            {
+                                "value": "354",
+                                "unit": "lb.ft"
+                            }
+                        ]
+                    },
+                    {
+                        "bore": [
+                            {
+                                "value": "87.9",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "3.46",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "stroke": [
+                            {
+                                "value": "82",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "3.23",
+                                "unit": "in"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "fuel": [
+                    {
+                        "tank_capacity": [
+                            {
+                                "value": "19.8",
+                                "unit": "gal"
+                            },
+                            {
+                                "value": "74.94",
+                                "unit": "l"
+                            }
+                        ]
+                    },
+                    {
+                        "auxiliary_fuel_tank_capacity": [
+                            {
+                                "value": "",
+                                "unit": "gal"
+                            },
+                            {
+                                "value": "",
+                                "unit": "l"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "mpg": [
+                    {
+                        "cruising_range_city": [
+                            {
+                                "value": "396",
+                                "unit": "mi"
+                            }
+                        ]
+                    },
+                    {
+                        "cruising_range_hwy": [
+                            {
+                                "value": "534.6",
+                                "unit": "mi"
+                            }
+                        ]
+                    },
+                    {
+                        "estimated_battery_range": [
+                            {
+                                "value": "",
+                                "unit": "mi"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "electric_powertrain": [
+                    {
+                        "motor1_torque": [
+                            {
+                                "value": "",
+                                "unit": "lb.ft"
+                            }
+                        ]
+                    },
+                    {
+                        "motor2_torque": [
+                            {
+                                "value": "",
+                                "unit": "lb.ft"
+                            }
+                        ]
+                    },
+                    {
+                        "motor3_torque": [
+                            {
+                                "value": "",
+                                "unit": "lb.ft"
+                            }
+                        ]
+                    },
+                    {
+                        "motor4_torque": [
+                            {
+                                "value": "",
+                                "unit": "lb.ft"
+                            }
+                        ]
+                    },
+                    {
+                        "motor_horsepower": [
+                            {
+                                "value": "",
+                                "unit": "hp"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "traction_battery": [
+                    {
+                        "all_electric_range": [
+                            {
+                                "value": "",
+                                "unit": "miles"
+                            }
+                        ]
+                    },
+                    {
+                        "total_dual_fusion": [
+                            {
+                                "value": "",
+                                "unit": "miles"
+                            }
+                        ]
+                    },
+                    {
+                        "peak_dc_fast_charge_time": [
+                            {
+                                "value": "",
+                                "unit": "minutes"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "range_extender": [
+                    {
+                        "output": [
+                            {
+                                "value": "",
+                                "unit": "hp"
+                            }
+                        ]
+                    },
+                    {
+                        "rpm": [
+                            {
+                                "value": "",
+                                "unit": "rpm"
+                            }
+                        ]
+                    },
+                    {
+                        "bore": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "stroke": [
+                            {
+                                "value": "",
+                                "unit": "mm"
+                            },
+                            {
+                                "value": "",
+                                "unit": "in"
+                            }
+                        ]
+                    },
+                    {
+                        "torque": [
+                            {
+                                "value": "",
+                                "unit": "lb.ft"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "specifications": [
+            {
+                "exterior": {
+                    "cab_style": ""
+                }
+            },
+            {
+                "steering": {
+                    "type": "Rack-Pinion",
+                    "overall_ratio": "",
+                    "turns_to_turns_ratio": ""
+                }
+            },
+            {
+                "braking": {
+                    "type": "4-Wheel Disc",
+                    "primary_abs_system": "4-Wheel",
+                    "secondary_abs_system": "",
+                    "front_disc": "Yes",
+                    "rear_disc": "Yes",
+                    "rear_drum": ""
+                }
+            },
+            {
+                "electrical": {
+                    "cold_cranking_capacity_amps": "",
+                    "max_alternator_capacity_amps": ""
+                }
+            },
+            {
+                "suspensions": {
+                    "front_type": "Multi-Link",
+                    "front_type_extended": "Multi-Link",
+                    "rear_type": "Multi-Link",
+                    "rear_type_extended": "Multi-Link",
+                    "front_axle": "",
+                    "rear_axle": ""
+                }
+            },
+            {
+                "seating": {
+                    "number_of_seats": "2",
+                    "max_seating_capacity": "2"
+                }
+            },
+            {
+                "wheels": {
+                    "front_wheel_material": "Aluminum",
+                    "rear_wheel_material": "Aluminum",
+                    "spare_wheel_material": ""
+                }
+            },
+            {
+                "tires": {
+                    "front_tire_size": "255/35R19",
+                    "rear_tire_size": "285/30R19",
+                    "spare_tire_size": "",
+                    "type": "Performance",
+                    "front_tire_pressure_psi": "38",
+                    "rear_tire_pressure_psi": "38"
+                }
+            },
+            {
+                "emissions": {
+                    "greenhouse_gas_score": "",
+                    "air_pollution_score": ""
+                }
+            },
+            {
+                "engine": {
+                    "type": "Twin Turbo Premium Unleaded V6",
+                    "code": "STDEN",
+                    "cylinders_configuration": "V-6",
+                    "displacement": 3000,
+                    "compressor": "Twin turbo",
+                    "drivetype": "RWD",
+                    "oil_cooler": "",
+                    "engine_location": "Front",
+                    "valves": "24",
+                    "compression": "10.7",
+                    "variable_intake_manifold": "",
+                    "block_type": "V",
+                    "block_material": "",
+                    "cam_type": ""
+                }
+            },
+            {
+                "fuel": {
+                    "type": "Gasoline",
+                    "standard_fuel_economy_type": "",
+                    "grade": "Premium Unleaded"
+                }
+            },
+            {
+                "mpg": {
+                    "epa_city_economy": "20",
+                    "epa_hwy_economy": "27",
+                    "epa_combined_economy": "23",
+                    "epa_city_equivalent": "",
+                    "epa_hwy_equivalent": "",
+                    "epa_combined_equivalent": ""
+                }
+            },
+            {
+                "electric_powertrain": {
+                    "type": "",
+                    "starter_electric_motor": "",
+                    "battery_solar_charging": "",
+                    "number_of_motors": "",
+                    "system_net_power": "",
+                    "system_net_torque": "",
+                    "limited_slip_differential": "",
+                    "front_locking_differential": "",
+                    "rear_locking_differential": "",
+                    "alternator_electric_motor": ""
+                }
+            },
+            {
+                "traction_battery": {
+                    "type": "",
+                    "number_of_cells": "",
+                    "battery_capacity_kwh": "",
+                    "battery_capacity_ah": "",
+                    "charge_time_hrs_@_240v": "",
+                    "dc_fast_charge_connector": "",
+                    "onboard_charger_kw": "",
+                    "peak_dc_fast_charge_rate_kw": "",
+                    "voltage": ""
+                }
+            },
+            {
+                "range_extender": {
+                    "block_material": "",
+                    "compression_ratio": "",
+                    "cylinders": "",
+                    "displacement_cm3": "",
+                    "displacement_cu.in": "",
+                    "head_material": "",
+                    "injection": "",
+                    "liters": "",
+                    "location": "",
+                    "output_kw": "",
+                    "recommended_fuel": "",
+                    "torque_nm": "",
+                    "valves_per_cylinder": "",
+                    "valvetrain": ""
+                }
+            }
+        ],
+        "transmission": {
+            "type": "Automatic",
+            "code": "427",
+            "number_of_speeds": "7",
+            "description": "7 speed automatic",
+            "power_takeoff": "",
+            "first_gear_ratio": "4.38",
+            "second_gear_ratio": "2.86",
+            "third_gear_ratio": "1.92",
+            "fourth_gear_ratio": "1.37",
+            "fifth_gear_ratio": "1",
+            "sixth_gear_ratio": "0.82",
+            "seventh_gear_ratio": "0.73",
+            "eighth_gear_ratio": "",
+            "ninth_gear_ratio": "",
+            "tenth_gear_ratio": "",
+            "reverse_gear_ratio": "3.42",
+            "final_drive_axle_ratio": "2.65",
+            "transfer_case_gear_ratio_high": "",
+            "transfer_case_gear_ratio_low": "",
+            "transfer_case_model": "",
+            "transfer_case_power_takeoff": ""
+        },
+        "oem_options_and_packages": [
+            {
+                "engine": [
+                    {
+                        "title": "Engine",
+                        "description": {
+                            "package_name": "Engine: 3.0L Bi-Turbo V6",
+                            "package_features": [],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "STDEN",
+                            "package_type": "Standard"
+                        }
+                    }
+                ]
+            },
+            {
+                "transmissions": [
+                    {
+                        "title": "Transmissions",
+                        "description": {
+                            "package_name": "Transmission: Electronic 7-Speed Automatic",
+                            "package_features": [
+                                "Includes Touch Shift."
+                            ],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "427",
+                            "package_type": "Standard"
+                        }
+                    }
+                ]
+            },
+            {
+                "packages": [
+                    {
+                        "title": "Packages",
+                        "description": {
+                            "package_name": "Premium I Package",
+                            "package_features": [
+                                "Heated & Active Ventilated Front Seats",
+                                "KEYLESS GO with HANDS-FREE ACCESS",
+                                "Active Multicontour Seats w/Massage",
+                                "AIRSCARF Neck-Level Heating System",
+                                "Electronic Trunk Closer",
+                                "PARKTRONIC w/Active Parking Assist",
+                                "Rearview Camera"
+                            ],
+                            "package_price": "4,900",
+                            "package_invoice": "4,557",
+                            "package_code": "P01",
+                            "package_type": "Custom"
+                        }
+                    },
+                    {
+                        "title": "Packages",
+                        "description": {
+                            "package_name": "Sport Wheel Package",
+                            "package_features": [
+                                "Sport Brake System",
+                                "Sport Steering Wheel",
+                                "Wheels: 19\" x 8.5\" Fr x 19\" x 9.5\" Rr AMG 5-Spoke",
+                                "Tires: 255/35R19 Fr & 285/30R19 Rr High Performance"
+                            ],
+                            "package_price": "2,000",
+                            "package_invoice": "1,860",
+                            "package_code": "321",
+                            "package_type": "Custom"
+                        }
+                    },
+                    {
+                        "title": "Packages",
+                        "description": {
+                            "package_name": "Driver Assistance Package",
+                            "package_features": [
+                                "DISTRONIC PLUS w/PRE-SAFE Brake",
+                                "Active Blind Spot Assist",
+                                "Active Lane Keeping Assist"
+                            ],
+                            "package_price": "2,950",
+                            "package_invoice": "2,744",
+                            "package_code": "997",
+                            "package_type": "Custom"
+                        }
+                    }
+                ]
+            },
+            {
+                "wheels": [
+                    {
+                        "title": "Wheels",
+                        "description": {
+                            "package_name": "Wheels: 18\" x 8.5\" Fr & 18\" x 9.5\" Rr Twin 5-Spoke",
+                            "package_features": [],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "R70",
+                            "package_type": "Standard"
+                        }
+                    },
+                    {
+                        "title": "Wheels",
+                        "description": {
+                            "package_name": "Wheels: 19\" x 8.5\" Fr & 19\" x 9.5\" Rr Twin 5-Spoke",
+                            "package_features": [
+                                "Tires: 255/35R19 Fr & 285/30R19 Rr High Performance"
+                            ],
+                            "package_price": "500",
+                            "package_invoice": "465",
+                            "package_code": "R17",
+                            "package_type": "Custom"
+                        }
+                    },
+                    {
+                        "title": "Wheels",
+                        "description": {
+                            "package_name": "Wheels: 19\" x 8.5\" Fr x 19\" x 9.5\" Rr AMG 5-Spoke",
+                            "package_features": [],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "770",
+                            "package_type": "Standard"
+                        }
+                    },
+                    {
+                        "title": "Wheels",
+                        "description": {
+                            "package_name": "19\" Multispoke alloy wheels",
+                            "package_features": [],
+                            "package_price": "500",
+                            "package_invoice": "465",
+                            "package_code": "11R",
+                            "package_type": "Custom"
+                        }
+                    }
+                ]
+            },
+            {
+                "tires": [
+                    {
+                        "title": "Tires",
+                        "description": {
+                            "package_name": "Tires: P255/40R18 95Y Fr & P285/35R18 97Y Rr",
+                            "package_features": [
+                                "High-performance run flat."
+                            ],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "STDTR",
+                            "package_type": "Standard"
+                        }
+                    },
+                    {
+                        "title": "Tires",
+                        "description": {
+                            "package_name": "Tires: 255/35R19 Fr & 285/30R19 Rr High Performance",
+                            "package_features": [
+                                "Run flat."
+                            ],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "NONTR",
+                            "package_type": "Standard"
+                        }
+                    }
+                ]
+            },
+            {
+                "mechanical": [
+                    {
+                        "title": "Mechanical",
+                        "description": {
+                            "package_name": "Active Body Control (ABC)",
+                            "package_features": [],
+                            "package_price": "4,090",
+                            "package_invoice": "3,804",
+                            "package_code": "487",
+                            "package_type": "Custom"
+                        }
+                    }
+                ]
+            },
+            {
+                "exterior": [
+                    {
+                        "title": "Exterior",
+                        "description": {
+                            "package_name": "Monotone Paint Application",
+                            "package_features": [],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "PAINT",
+                            "package_type": "Standard"
+                        }
+                    },
+                    {
+                        "title": "Exterior",
+                        "description": {
+                            "package_name": "MAGIC SKY CONTROL",
+                            "package_features": [],
+                            "package_price": "2,500",
+                            "package_invoice": "2,325",
+                            "package_code": "412",
+                            "package_type": "Custom"
+                        }
+                    },
+                    {
+                        "title": "Exterior",
+                        "description": {
+                            "package_name": "Wheel Locking Bolts",
+                            "package_features": [],
+                            "package_price": "140",
+                            "package_invoice": "130",
+                            "package_code": "068",
+                            "package_type": "Custom"
+                        }
+                    }
+                ]
+            },
+            {
+                "seats": [
+                    {
+                        "title": "Seats",
+                        "description": {
+                            "package_name": "Active Multicontour Seats",
+                            "package_features": [
+                                "Heated Seats"
+                            ],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "STDST",
+                            "package_type": "Standard"
+                        }
+                    }
+                ]
+            },
+            {
+                "seat_trim": [
+                    {
+                        "title": "Seat Trim",
+                        "description": {
+                            "package_name": "Leather Upholstery",
+                            "package_features": [
+                                "Includes sun-reflecting leather on seats and contrast stitching."
+                            ],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "20X",
+                            "package_type": "Standard"
+                        }
+                    },
+                    {
+                        "title": "Seat Trim",
+                        "description": {
+                            "package_name": "Nappa Leather Upholstery",
+                            "package_features": [
+                                "Includes sun-reflecting premium leather on seats, armrests and center console with contrast stitching and piping."
+                            ],
+                            "package_price": "900",
+                            "package_invoice": "837",
+                            "package_code": "8XX",
+                            "package_type": "Custom"
+                        }
+                    }
+                ]
+            },
+            {
+                "interior": [
+                    {
+                        "title": "Interior",
+                        "description": {
+                            "package_name": "Illuminated Door Sills",
+                            "package_features": [],
+                            "package_price": "350",
+                            "package_invoice": "326",
+                            "package_code": "U25",
+                            "package_type": "Custom"
+                        }
+                    },
+                    {
+                        "title": "Interior",
+                        "description": {
+                            "package_name": "Wood/Leather Steering Wheel",
+                            "package_features": [],
+                            "package_price": "590",
+                            "package_invoice": "549",
+                            "package_code": "289",
+                            "package_type": "Custom"
+                        }
+                    },
+                    {
+                        "title": "Interior",
+                        "description": {
+                            "package_name": "Night View Assist PLUS",
+                            "package_features": [],
+                            "package_price": "2,260",
+                            "package_invoice": "2,102",
+                            "package_code": "610",
+                            "package_type": "Custom"
+                        }
+                    },
+                    {
+                        "title": "Interior",
+                        "description": {
+                            "package_name": "Brown Poplar Wood Trim (Satin)",
+                            "package_features": [],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "729",
+                            "package_type": "Standard"
+                        }
+                    },
+                    {
+                        "title": "Interior",
+                        "description": {
+                            "package_name": "Aluminum Trim",
+                            "package_features": [],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "739",
+                            "package_type": "Standard"
+                        }
+                    },
+                    {
+                        "title": "Interior",
+                        "description": {
+                            "package_name": "Black Ash Wood Trim",
+                            "package_features": [],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "736",
+                            "package_type": "Standard"
+                        }
+                    },
+                    {
+                        "title": "Interior",
+                        "description": {
+                            "package_name": "Burl Walnut Wood Trim",
+                            "package_features": [],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "731",
+                            "package_type": "Standard"
+                        }
+                    },
+                    {
+                        "title": "Interior",
+                        "description": {
+                            "package_name": "designo Black Piano Lacquer Trim",
+                            "package_features": [],
+                            "package_price": "1,500",
+                            "package_invoice": "1,395",
+                            "package_code": "W69",
+                            "package_type": "Custom"
+                        }
+                    },
+                    {
+                        "title": "Interior",
+                        "description": {
+                            "package_name": "designo Natural Bamboo Trim",
+                            "package_features": [],
+                            "package_price": "1,500",
+                            "package_invoice": "1,395",
+                            "package_code": "W26",
+                            "package_type": "Custom"
+                        }
+                    },
+                    {
+                        "title": "Interior",
+                        "description": {
+                            "package_name": "designo Champagne White Piano Lacquer Trim",
+                            "package_features": [],
+                            "package_price": "1,500",
+                            "package_invoice": "1,395",
+                            "package_code": "W70",
+                            "package_type": "Custom"
+                        }
+                    }
+                ]
+            },
+            {
+                "audio": [
+                    {
+                        "title": "Audio",
+                        "description": {
+                            "package_name": "Radio: COMAND System w/Navigation",
+                            "package_features": [
+                                "iPod/MP3 Media Interface",
+                                "SIRIUS XM Satellite Radio",
+                                "harman/kardon Logic 7 Surround Sound System",
+                                "Includes 11 speakers."
+                            ],
+                            "package_price": "",
+                            "package_invoice": "",
+                            "package_code": "527",
+                            "package_type": "Standard"
+                        }
+                    }
+                ]
+            },
+            {
+                "entertainment_and_electronics": [
+                    {
+                        "title": "Entertainment And Electronics",
+                        "description": {
+                            "package_name": "Bang & Olufsen Sound System",
+                            "package_features": [
+                                "Includes high-end surround system with total system output of 900 watts, 12 high-end loudspeakers including Frontbass, 2-LED-illuminated tweeters featuring Acoustic Lens Technology integrated into dashboard, aluminum loudspeaker covers in silver chrome for the mid-range speakers and woofers in the front doors and center speaker in the rear and Bang & Olufsen-specific COMAND menu (True Image) for individual sound configuration."
+                            ],
+                            "package_price": "5,400",
+                            "package_invoice": "5,022",
+                            "package_code": "811",
+                            "package_type": "Custom"
+                        }
+                    }
+                ]
+            },
+            {
+                "other_options": [
+                    {
+                        "title": "Other Options",
+                        "description": {
+                            "package_name": "Soft Close Doors",
+                            "package_features": [],
+                            "package_price": "450",
+                            "package_invoice": "419",
+                            "package_code": "883",
+                            "package_type": "Custom"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

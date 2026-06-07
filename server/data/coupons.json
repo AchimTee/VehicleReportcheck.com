@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "code": "VEHICLE REPORT CHECK50",
+        "discount": 50,
+        "type": "percentage",
+        "expiry": "2026-12-31T23:59:59.999Z",
+        "usageCount": 0,
+        "maxUses": 100,
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "code": "WELCOME10",
+        "discount": 10,
+        "type": "fixed",
+        "expiry": "2026-12-31T23:59:59.999Z",
+        "usageCount": 0,
+        "maxUses": 1000,
+        "status": "active"
+    }
+]

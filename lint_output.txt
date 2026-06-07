@@ -1,0 +1,13 @@
+
+> vehiclereportcheck-app@0.0.0 lint
+> eslint .
+
+
+C:\Users\hp\Desktop\Achtrex LLC\Vehicle Report Check\src\pages\CarLoan.jsx
+  41:8  warning  React Hook useEffect has a missing dependency: 'calculateLoan'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\hp\Desktop\Achtrex LLC\Vehicle Report Check\src\pages\LoanApplication.jsx
+  2:21  error  'useNavigate' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Ô£û 2 problems (1 error, 1 warning)
+

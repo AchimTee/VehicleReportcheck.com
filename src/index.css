@@ -1,0 +1,120 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: #333333;
+  background-color: #fcfcfc;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Vehicle Report Check Brand Variables */
+  --gradient-primary: linear-gradient(135deg, #22c55e 0%, #064e3b 100%);
+  --gradient-hover: linear-gradient(135deg, #16a34a 0%, #022c22 100%);
+  --color-primary: #16a34a;
+  
+  --text-dark: #0f172a;
+  --text-gray: #64748b;
+  --bg-light: #f8fafc;
+  --border-color: #e2e8f0;
+  
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  color: var(--text-dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-dark);
+  font-weight: 800;
+  margin-bottom: 0.5em;
+  line-height: 1.2;
+}
+
+p {
+  color: var(--text-gray);
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Accessibility: Keyboard Navigation Outlines */
+*:focus-visible {
+  outline: 3px solid var(--primary-color) !important;
+  outline-offset: 2px !important;
+  box-shadow: 0 0 0 4px rgba(0, 71, 171, 0.2) !important;
+  transition: outline 0.1s ease-in-out;
+}
+
+/* Hidden skip link for screen readers */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--primary-color);
+  color: white;
+  padding: 8px 16px;
+  z-index: 9999;
+  transition: top 0.2s;
+  text-decoration: none;
+  font-weight: bold;
+}
+.skip-to-content:focus {
+  top: 0;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Utilities */
+.gradient-text {
+  background: var(--gradient-primary);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.gradient-bg {
+  background: var(--gradient-primary);
+  color: white;
+  border: none;
+}

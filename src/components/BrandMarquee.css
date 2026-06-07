@@ -1,0 +1,80 @@
+.brand-marquee-container {
+    padding: 3rem 0;
+    background: white;
+    border-bottom: 1px solid var(--border-light);
+    overflow: hidden;
+    text-align: center;
+}
+
+.brands-title {
+    color: var(--text-tertiary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 2rem;
+}
+
+.marquee-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.marquee-track {
+    display: flex;
+    gap: 4rem;
+    width: max-content;
+    animation: scroll-left-to-right 60s linear infinite;
+    /* Left to Right implies moving towards right? Users usually mean scrolling content. "Left to Right" means content moves >>> this way. Standard marquees move Right to Left (<<<). User asked "move from left to right". So content starts left and goes right.  */
+}
+
+/* User asked for "move from left to right" */
+@keyframes scroll-left-to-right {
+    0% {
+        transform: translateX(-50%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* If user meant normal reading direction (Right to Left scrolling), I'd use translateX(0) to -50%. 
+   But "left to right" usually means -> direction. 
+   Start at -50% (showing second set) and move to 0 (showing first set) simulates -> movement effectively for seamless loop if setup correctly. 
+   Actually, standard is: Items move FROM Left TO Right. 
+   Start: translateX(-50%) [showing end of track] -> End: translateX(0) [showing start of track]
+   This moves the track to the right. Correct.
+*/
+
+.marquee-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+}
+
+.marquee-item img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    /* Removed filters for full color display */
+    transition: transform 0.3s ease;
+}
+
+.marquee-item:hover img {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .marquee-track {
+        gap: 2.5rem;
+    }
+
+    .marquee-item img {
+        height: 30px;
+    }
+}

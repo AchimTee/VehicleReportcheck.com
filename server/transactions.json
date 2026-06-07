@@ -1,0 +1,35 @@
+[
+  {
+    "receivedAt": "2025-12-14T01:40:07.108Z",
+    "clientReference": "inv1765676338217",
+    "amount": 0.02,
+    "status": "Success",
+    "customerName": "mike",
+    "customerEmail": "mike@gmail.com",
+    "description": "Single Report",
+    "paymentType": "hubtel",
+    "date": "2025-12-14T01:40:07.100Z"
+  },
+  {
+    "receivedAt": "2025-12-14T01:45:25.673Z",
+    "clientReference": "inv1765676672724",
+    "amount": 0.06,
+    "status": "Success",
+    "customerName": "Super Admin",
+    "customerEmail": "Admin@vehiclereportcheck.com",
+    "description": "Basic",
+    "paymentType": "hubtel",
+    "date": "2025-12-14T01:45:25.669Z"
+  },
+  {
+    "receivedAt": "2025-12-14T02:03:10.362Z",
+    "clientReference": "inv1765677738660",
+    "amount": 0.16,
+    "status": "Success",
+    "customerName": "mike",
+    "customerEmail": "mike@gmail.com",
+    "description": "Single Report",
+    "paymentType": "hubtel",
+    "date": "2025-12-14T02:03:10.356Z"
+  }
+]

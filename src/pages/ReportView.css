@@ -1,0 +1,534 @@
+.report-view-page {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.report-toolbar {
+    background-color: white;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.toolbar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #4b5563;
+    background: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.back-btn:hover {
+    color: #111827;
+}
+
+.toolbar-actions {
+    display: flex;
+    gap: 1rem;
+}
+
+.action-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    background: white;
+    color: #374151;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.action-btn:hover {
+    background-color: #f9fafb;
+    border-color: #d1d5db;
+}
+
+.report-container {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.report-paper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.75rem;
+    padding: 4rem;
+    color: #000000;
+}
+
+.report-header-logo,
+.report-footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.report-footer-logo {
+    margin-top: 5rem;
+    margin-bottom: 0;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 2rem;
+}
+
+
+
+.report-logo {
+    height: 70px;
+    object-fit: contain;
+}
+
+.report-logo-small {
+    height: 40px;
+    object-fit: contain;
+    opacity: 0.8;
+}
+
+.report-header-section {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.report-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 1rem;
+    letter-spacing: -0.025em;
+}
+
+.vin-badge {
+    display: inline-block;
+    background: #f3f4f6;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    font-family: 'Monaco', monospace;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #374151;
+    border: 1px solid #e5e7eb;
+}
+
+.report-summary-section {
+    margin-bottom: 4rem;
+}
+
+.summary-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.summary-card {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+}
+
+.summary-card.success {
+    background-color: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    color: #166534;
+}
+
+.summary-card.info {
+    background-color: #eff6ff;
+    border: 1px solid #bfdbfe;
+    color: #1e40af;
+}
+
+.summary-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.summary-text {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.section-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    border-bottom: 3px solid #e5e7eb;
+    padding-bottom: 0.75rem;
+    margin-bottom: 2rem;
+    color: #111827;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.subsection-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #374151;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.data-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.data-item {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+}
+
+.data-item.main-vin {
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 1rem;
+}
+
+.data-section-wrapper {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f9fafb;
+    border-radius: 0.75rem;
+    border: 1px solid #e5e7eb;
+}
+
+.nested-data {
+    margin-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.data-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.data-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+}
+
+.data-value {
+    color: #111827;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.footer-text {
+    margin-top: 1rem;
+    color: #4b5563;
+    font-weight: 500;
+}
+
+.footer-subtext {}
+
+@media screen and (max-width: 768px) {
+    .report-toolbar {
+        padding: 1rem;
+    }
+    .toolbar-content {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: stretch;
+    }
+    .toolbar-actions {
+        flex-direction: column;
+    }
+    .action-btn {
+        justify-content: center;
+    }
+    .report-container {
+        padding: 1rem;
+    }
+    .report-paper {
+        padding: 1.5rem;
+    }
+    .report-title {
+        font-size: 1.75rem;
+    }
+    .vin-badge {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+        word-break: break-all;
+    }
+    .nested-data {
+        grid-template-columns: 1fr;
+    }
+    .section-title {
+        font-size: 1.25rem;
+        flex-wrap: wrap;
+    }
+    .data-item {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+}
+
+@media print {
+
+    .no-print,
+    .navbar,
+    .footer,
+    .whatsapp-float,
+    .mobile-header,
+    .dashboard-sidebar,
+    .report-toolbar {
+        display: none !important;
+    }
+
+    body,
+    html,
+    .report-view-page,
+    .app-container,
+    .main-content {
+        background: white !important;
+        height: auto !important;
+        min-height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: visible !important;
+        width: 100% !important;
+    }
+
+    .report-container {
+        padding: 0 !important;
+        margin: 0 !important;
+        overflow: visible !important;
+        width: 100% !important;
+        display: block !important;
+    }
+
+    .report-paper {
+        box-shadow: none !important;
+        padding: 20px 40px !important;
+        /* Add some side padding for print */
+        max-width: 100% !important;
+        border: none !important;
+        margin: 0 !important;
+        width: 100% !important;
+        display: block !important;
+    }
+
+    /* Force background colors and images to print */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+
+    /* Ensure grid layouts work in print */
+    .summary-cards,
+    .data-grid,
+    .nested-data {
+        display: grid !important;
+        break-inside: avoid;
+    }
+
+    .summary-card {
+        break-inside: avoid;
+        border: 1px solid #e5e7eb !important;
+        /* Ensure borders print */
+    }
+
+    .data-section-wrapper {
+        break-inside: avoid;
+        page-break-inside: avoid;
+        border: 1px solid #e5e7eb !important;
+        background-color: #f9fafb !important;
+        /* Ensure background prints */
+        margin-bottom: 20px !important;
+    }
+
+    .report-header-logo {
+        margin-bottom: 20px !important;
+    }
+
+    .report-footer-logo {
+        margin-top: 30px !important;
+        page-break-inside: avoid;
+    }
+
+    /* Ensure text colors are preserved if they are critical, otherwise black */
+    .text-green {
+        color: #1e3a8a !important;
+    }
+
+    .text-red {
+        color: #dc2626 !important;
+    }
+
+    .text-blue {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 5px;
+        width: 25px;
+        height: 12px;
+        background: #e0f2fe;
+        border-radius: 5px 0 0 0;
+    }
+
+    .car-top::after {
+        content: '';
+        position: absolute;
+        top: 3px;
+        right: 5px;
+        width: 25px;
+        height: 12px;
+        background: #e0f2fe;
+        border-radius: 0 5px 0 0;
+    }
+
+    .wheel {
+        position: absolute;
+        bottom: -5px;
+        width: 22px;
+        height: 22px;
+        background: #333;
+        border-radius: 50%;
+        border: 3px solid #e5e7eb;
+        animation: spin-wheel 0.8s linear infinite;
+    }
+
+    .wheel.front {
+        right: 15px;
+    }
+
+    .wheel.back {
+        left: 15px;
+    }
+
+    .wheel::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 8px;
+        height: 8px;
+        background: #9ca3af;
+        border-radius: 50%;
+    }
+
+    .road {
+        position: absolute;
+        bottom: -15px;
+        left: -50%;
+        width: 200%;
+        height: 4px;
+        background: #e5e7eb;
+        border-radius: 2px;
+        overflow: hidden;
+    }
+
+    .road::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: repeating-linear-gradient(90deg,
+                transparent,
+                transparent 20px,
+                #94a3b8 20px,
+                #94a3b8 40px);
+        animation: move-road 0.8s linear infinite reverse;
+    }
+
+    .loading-text {
+        margin-top: 40px;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #4b5563;
+        letter-spacing: 0.05em;
+        animation: pulse 1.5s infinite ease-in-out;
+    }
+
+    @keyframes bounce {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-2px);
+        }
+    }
+
+    @keyframes spin-wheel {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    @keyframes move-road {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-40px);
+        }
+    }
+
+    @keyframes pulse {
+
+        0%,
+        100% {
+            opacity: 0.6;
+        }
+
+        50% {
+            opacity: 1;
+        }
+    }
+}

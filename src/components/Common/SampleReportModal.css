@@ -1,0 +1,161 @@
+/* Sample Report Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    /* Darker background for focus */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    padding: 2rem;
+}
+
+.pdf-modal {
+    background: white;
+    width: 95%;
+    max-width: 1200px;
+    height: 90vh;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.pdf-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background: #0f172a;
+    color: white;
+    border-bottom: 1px solid #334155;
+}
+
+.pdf-header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.pdf-actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.download-btn {
+    background: #1e40af;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.download-btn:hover {
+    background: #1e3a8a;
+}
+
+.close-modal-btn {
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.close-modal-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.pdf-content-wrapper {
+    flex: 1;
+    position: relative;
+    background: #cbd5e1;
+    overflow: hidden;
+}
+
+.pdf-iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
+.pdf-fallback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+    text-align: center;
+    gap: 1rem;
+}
+
+.download-fallback-btn {
+    background: #1e40af;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.download-fallback-btn:hover {
+    background: #1e3a8a;
+}
+
+@media (max-width: 640px) {
+    .modal-overlay {
+        padding: 0;
+        align-items: flex-end;
+        /* Sheet-like on mobile optional, or centered */
+        align-items: center;
+    }
+
+    .pdf-modal {
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        max-width: none;
+    }
+
+    .pdf-header {
+        padding: 0.75rem 1rem;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+
+    .pdf-actions {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .pdf-header h3 {
+        font-size: 1rem;
+    }
+
+    .download-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.85rem;
+    }
+}

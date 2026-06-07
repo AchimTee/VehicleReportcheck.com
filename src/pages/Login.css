@@ -1,0 +1,212 @@
+.autocheck-auth-page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    background-color: #f2f2f2;
+}
+
+.autocheck-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 150px);
+    background-image: url('../assets/dream_car_keys.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.autocheck-bg-image::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0) 100%);
+}
+
+.autocheck-main-content {
+    flex: 1;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.autocheck-header {
+    margin-bottom: 20px;
+}
+
+.autocheck-header h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #4a4a4a;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.8);
+}
+
+.autocheck-form-card {
+    background: white;
+    width: 100%;
+    max-width: 480px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+.autocheck-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.autocheck-logo img {
+    max-width: 280px;
+    height: auto;
+    object-fit: contain;
+}
+
+.autocheck-field {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.autocheck-field select,
+.autocheck-field input[type="text"],
+.autocheck-field input[type="email"],
+.autocheck-field input[type="password"],
+.autocheck-field input[type="tel"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    box-sizing: border-box;
+}
+
+.autocheck-field input::placeholder {
+    color: #999;
+}
+
+.autocheck-link {
+    align-self: flex-end;
+    font-size: 0.85rem;
+    color: #1e4b85;
+    text-decoration: none;
+    margin-top: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.autocheck-link:hover {
+    text-decoration: underline;
+}
+
+.autocheck-options {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.autocheck-options input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.autocheck-submit-btn {
+    width: 100%;
+    background-color: #b81f80;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.autocheck-submit-btn:hover {
+    background-color: #9a196b;
+}
+
+.autocheck-submit-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.autocheck-footer {
+    background-color: #285c96;
+    min-height: 150px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.autocheck-footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+}
+
+.autocheck-footer-text h2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.autocheck-footer-text p {
+    color: #e0e7ff;
+    font-size: 1rem;
+}
+
+.autocheck-footer-btn {
+    background-color: #b81f80;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.autocheck-footer-btn:hover {
+    background-color: #9a196b;
+}
+
+@media (max-width: 768px) {
+    .autocheck-footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .autocheck-form-card {
+        padding: 30px 20px;
+        max-width: 90%;
+    }
+}
