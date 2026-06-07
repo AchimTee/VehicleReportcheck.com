@@ -2,145 +2,183 @@
     width: 100%;
 }
 
-/* NEW HERO SECTION */
-.hero-section.new-hero {
-    position: relative;
-    padding: 0;
-    display: flex;
-    min-height: 600px;
-    background: url('../assets/report_hero_bg.png') center/cover no-repeat;
-    max-width: 1400px;
-    margin: 30px auto;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
-}
-
-.new-hero-image-side {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 50%;
-    background: url('../assets/hero_bg.jpg') center right/cover no-repeat;
-    z-index: 1;
-}
-
-.new-hero-content-wrapper {
-    position: relative;
-    z-index: 2;
-    margin-left: 0;
-    width: 60%;
-    background-color: transparent;
+/* EPIC HERO SECTION */
+.epic-hero-section {
+    background-color: #f4f9ff;
+    padding: 60px 0;
+    min-height: 500px;
     display: flex;
     align-items: center;
-    padding: 60px;
-    box-sizing: border-box;
 }
 
-.new-hero-content {
-    max-width: 650px;
-    color: #ffffff;
-    background: rgba(15, 23, 42, 0.65);
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    padding: 50px;
-    border-radius: 24px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
-    transform: translateY(0);
-    animation: heroFadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-
-@keyframes heroFadeUp {
-    from { opacity: 0; transform: translateY(40px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.new-hero-title {
-    font-size: 3.2rem;
-    font-weight: 800;
-    letter-spacing: -1px;
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-    line-height: 1.15;
-    margin-bottom: 15px;
-    display: inline-block;
-}
-
-.new-hero-price {
-    font-size: 2.2rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 25px;
+.epic-hero-container {
     display: flex;
-    align-items: baseline;
-    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-.new-hero-price span {
-    background: var(--gradient-primary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    color: transparent;
-    font-size: 4.5rem;
-    line-height: 1;
-}
-
-.new-hero-desc {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #cbd5e1;
-    margin-bottom: 40px;
-}
-
-.new-search-form {
-    display: flex;
-    background: #ffffff;
-    border-radius: 8px;
-    padding: 6px;
-    margin-bottom: 15px;
-}
-
-.new-search-form input {
+.epic-hero-left {
     flex: 1;
-    border: none;
-    outline: none;
-    padding: 16px 24px;
-    font-size: 1.15rem;
-    font-weight: 500;
-    color: #0f172a;
-    border-radius: 8px 0 0 8px;
-    background: transparent;
-}
-
-.new-btn-search {
-    background: var(--gradient-primary);
-    color: white;
-    border: none;
-    padding: 0 40px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: opacity 0.2s;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
-.new-btn-search:hover {
-    background: #4663e6;
+.epic-hero-image {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    transform: scale(1.1);
 }
 
-.new-hero-disclaimer {
-    font-size: 0.75rem;
-    color: #64748b;
-    margin-top: 10px;
+.epic-hero-right {
+    flex: 1;
+    max-width: 600px;
+}
+
+.epic-subheading {
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.epic-title {
+    color: #0f172a;
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+.epic-desc {
+    color: #334155;
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.epic-search-widget {
+    background: transparent;
+}
+
+.epic-search-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.epic-tab {
+    background: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #0f172a;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: all 0.2s;
+}
+
+.epic-tab.active {
+    background: var(--gradient-primary);
+    color: #ffffff;
+}
+
+.epic-search-form {
+    background: #ffffff;
+    border: 2px solid #fbbf24;
+    border-radius: 50px;
+    padding: 6px;
+    box-shadow: 0 10px 25px rgba(251, 191, 36, 0.15);
+    margin-bottom: 20px;
+}
+
+.epic-input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.epic-search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 15px 25px;
+    font-size: 1.1rem;
+    color: #0f172a;
+    background: transparent;
+    border-radius: 50px;
+}
+
+.epic-search-input::placeholder {
+    color: #94a3b8;
+}
+
+.epic-btn-search {
+    background: var(--gradient-primary);
+    color: #ffffff;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    display: flex;
+    align-items: center;
+}
+
+.epic-btn-search:hover {
+    background: var(--gradient-hover);
+    transform: translateY(-1px);
+}
+
+.epic-footer-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+    color: #0ea5e9;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.epic-dot {
+    color: #cbd5e1;
+}
+
+.epic-trust-badges {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+}
+
+@media (max-width: 968px) {
+    .epic-hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .epic-hero-image {
+        transform: scale(1);
+        margin-bottom: 30px;
+    }
+    .epic-title {
+        font-size: 2.2rem;
+    }
+    .epic-trust-badges {
+        margin-left: 0;
+        margin-top: 15px;
+        justify-content: center;
+        width: 100%;
+    }
+    .epic-footer-links {
+        justify-content: center;
+    }
 }
 
 /* HOW TO GET INFO */

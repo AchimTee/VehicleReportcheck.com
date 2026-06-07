@@ -141,7 +141,7 @@ const getEmailTemplate = (heroTitle, bodyContent) => `
             <div class="container">
                 <div class="header">
                     <a href="https://www.vehiclereportcheck.com">
-                        <img src="${LOGO_URL}" alt="Vehicle Report Check Logo">
+                        <img src="${LOGO_URL}" alt="Vehicle Report Check Logo" width="180">
                     </a>
                 </div>
                 ${heroTitle ? `

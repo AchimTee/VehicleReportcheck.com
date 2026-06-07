@@ -8,6 +8,7 @@ import dashboardVin from '../assets/dashboard_vin.png';
 import doorJambVin from '../assets/door_jamb_vin.png';
 import vinDecoder from '../assets/vin_decoder.png';
 import twoCars from '../assets/two_cars.png';
+import epicHeroCar from '../assets/epic_hero_car.png';
 
 const Home = () => {
     const navigate = useNavigate();
@@ -39,37 +40,48 @@ const Home = () => {
                     onClose={() => setShowVinModal(false)}
                 />
             )}
-            {/* HERO SECTION */}
-            <section className="hero-section new-hero">
-                <div className="new-hero-content-wrapper">
-                    <div className="new-hero-content">
-                        <div className="hero-trust-badge" style={{ display: 'flex', alignItems: 'center', gap: '4px', marginBottom: '15px', fontSize: '0.9rem', color: '#fbbf24', fontWeight: '600' }}>
-                            <Star size={14} fill="#fbbf24" color="#fbbf24" />
-                            <Star size={14} fill="#fbbf24" color="#fbbf24" />
-                            <Star size={14} fill="#fbbf24" color="#fbbf24" />
-                            <Star size={14} fill="#fbbf24" color="#fbbf24" />
-                            <Star size={14} fill="#fbbf24" color="#fbbf24" />
-                            <span style={{ color: '#e2e8f0', marginLeft: '8px' }}>Trusted by over 100,000 drivers</span>
-                        </div>
-                        <h1 className="new-hero-title">Uncover the Truth Before You Buy.</h1>
-                        <h2 className="new-hero-price">Comprehensive reports for <span>$14</span></h2>
-                        <p className="new-hero-desc">
-                            Don't let hidden damage, title issues, or odometer fraud cost you thousands. Get an instant, detailed vehicle history report powered by industry-leading data. Make the smart choice today!
-                        </p>
+            {/* EPIC HERO SECTION */}
+            <section className="epic-hero-section">
+                <div className="container epic-hero-container">
+                    <div className="epic-hero-left">
+                        <img src={epicHeroCar} alt="Vehicle History Report" className="epic-hero-image" />
+                    </div>
+                    <div className="epic-hero-right">
+                        <h3 className="epic-subheading">Smart buyers check before they buy.</h3>
+                        <h1 className="epic-title">Protect Yourself From Costly Repairs And Hidden Damage</h1>
+                        <p className="epic-desc">Get a comprehensive vehicle history report today.</p>
                         
-                        <form className="new-search-form" onSubmit={handleSearch}>
-                            <input 
-                                type="text" 
-                                placeholder="Enter your 17-digit VIN..."
-                                value={vin}
-                                onChange={(e) => setVin(e.target.value)}
-                                maxLength={17}
-                            />
-                            <button type="submit" className="new-btn-search">Check VIN &rarr;</button>
-                        </form>
-                        <p className="new-hero-disclaimer" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                            <ShieldCheck size={14} color="#22c55e" /> 100% Secure Checkout &middot; Instant Delivery
-                        </p>
+                        <div className="epic-search-widget">
+                            <div className="epic-search-tabs">
+                                <button type="button" className={`epic-tab ${searchType === 'vin' ? 'active' : ''}`} onClick={() => setSearchType('vin')}>by VIN</button>
+                                <button type="button" className={`epic-tab ${searchType === 'plate' ? 'active' : ''}`} onClick={() => setSearchType('plate')}>by US License Plate</button>
+                            </div>
+                            <form className="epic-search-form" onSubmit={handleSearch}>
+                                <div className="epic-input-wrapper">
+                                    <input 
+                                        type="text" 
+                                        placeholder={searchType === 'vin' ? "Enter VIN Number" : "Enter US License Plate"}
+                                        value={vin}
+                                        onChange={(e) => setVin(e.target.value)}
+                                        maxLength={17}
+                                        className="epic-search-input"
+                                    />
+                                    <button type="submit" className="epic-btn-search">Check {searchType === 'vin' ? 'VIN' : 'Plate'} <span style={{marginLeft: '8px'}}>&rsaquo;</span></button>
+                                </div>
+                            </form>
+                            
+                            <div className="epic-footer-links">
+                                <span>Where <span style={{color: '#64748b', fontWeight: '400'}}>to find the VIN?</span></span>
+                                <span className="epic-dot">&bull;</span>
+                                <span style={{color: '#64748b', fontWeight: '400'}}>No VIN? <span style={{color: '#00a2ff', fontWeight: '600', cursor: 'pointer'}}>Get Vehicle Report Check reports</span></span>
+                                
+                                <div className="epic-trust-badges">
+                                    <ShieldCheck size={20} color="#64748b" />
+                                    <Database size={20} color="#f59e0b" />
+                                    <CheckCircle2 size={20} color="#0f172a" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
